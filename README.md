@@ -8,6 +8,13 @@ Fonts for use with the bobsgame/bobsgame repository. **TODO:** Rename the reposi
 * Pixel Sans Terminal: An alternate version with all the lowercase letters changed to match the font used in SC UniPad (2006)
 * Pixel Sans Textbook: An alternate version with the font similar to Pokémon Black & White (2011)
 
+## Tools used
+* CrystalTile2 – Freeware Licensed Software
+* FontCreator – Shareware Licensed Software
+* Microsoft Paintbrush – Software distributed with Windows
+* NFTREdit – Freeware Licensed Software
+* Tinke – GNU GPL Licensed Open-Source Software
+
 ## Installation Instructions
 http://bobsgame.wikia.com/wiki/Category:Fonts
 
