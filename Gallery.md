@@ -1,7 +1,7 @@
 ## Gallery
 
 ### BobsGame Big
-<img src="bobsgame-mono.png">
+<img src="bobsgame-big.png">
 
 ### BobsGame Mono
 <img src="bobsgame-mono.png">
