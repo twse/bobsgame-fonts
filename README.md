@@ -1,22 +1,26 @@
-# bobsgame-fonts
-Fonts for use with the bobsgame/bobsgame repository. **TODO:** Rename the repository to bobsgame/fonts with the request from @bobsgame, the original creator.
-* BobsGame Big: A big version of normal font
-* BobsGame Mono: A monospaced font based on the OS/2 font “System VIO”
-* BobsGame nD: A font similar to the Pokémon Diamond & Pearl (2008), Platinum (2009) and HeartGold & SoulSilver (2010) games
-* Pixel Sans: A multilingual font based on the font used in many Nintendo DS and Game Boy Advance games
-* Pixel Sans Fallback: Will be used in Japanese and Korean language versions
-* Pixel Sans Terminal: An alternate version with all the lowercase letters changed to match the font used in SC UniPad (2006)
-* Pixel Sans Textbook: An alternate version with the font similar to Pokémon Black & White (2011)
+﻿Fonts created for use with [bob's game](https://github.com/bobsgame/bobsgame). These are all ordinary Unicode fonts for use with non-OpenType-savvy programs (e.g. the Korean word processor Haansoft Hangul NEO).
+* **BobsGame Big** – Based on the font used in Mario & Luigi RPG games for the Nintendo DS. This font was created in 2012-12-20.
+* **BobsGame Mono** – Based on the OS/2 font “System VIO”.
+* **BobsGame nD** – Based on the font used in Pokémon Diamond & Pearl (2008), Platinum (2009) and HeartGold & SoulSilver (2010) games.
+* **Pixel Sans** – Based on the font used in many Nintendo 3DS, Game Boy Advance and Nintendo DS games. This font was created in 2015 under the name of **DS Sans**.
+* **Pixel Sans Fallback** – For use in Japanese and Korean.
+* **Pixel Sans Terminal** – An alternate version with all the lowercase letters changed to match the font used in SC UniPad (2006).
+* **Pixel Sans Textbook** – This font is similar to the one used in the Western and Korean versions of Pokémon Black & White (2011). Capital J has a serif in which the original in-game font does not have.
 
 ## Tools used
-* CrystalTile2 – Freeware Licensed Software
-* FontCreator – Shareware Licensed Software
-* Microsoft Paintbrush – Software distributed with Windows
-* NFTREdit – Freeware Licensed Software
-* Tinke – GNU GPL Licensed Open-Source Software
+* **CrystalTile2** – Freeware Licensed Software
+* **High-Logic FontCreator 5.6** – Shareware Licensed Software
+* **Microsoft Paintbrush, Windows XP version** – Software distributed with Windows
+* **NFTREdit** – Freeware Licensed Software
+* **Tinke** – GNU GPL Licensed Open-Source Software
 
 ## Installation Instructions
 http://bobsgame.wikia.com/wiki/Category:Fonts
 
-## Legal Notices
-Users must accept this disclaimer of warranty: "These fonts are supplied as is. The author disclaims all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose. The author assumes no liability for damages, direct or consequential, which may result from the use of these fonts."
+## NFTR Installation Instructions
+The NFTR includes partial coverage of CP1252. The only characters missing in the NFTR is the non-breaking space, florin and small tilde. Use [Tinke](https://github.com/pleonex/tinke) to replace the font file.
+1. Download the More English Training European ROM from ROM hosting sites (e.g. ROM Hustler or Emuparadise) and open it.
+2. You see a file called **European_LC12.NFTR** in common/fonts/data.
+3. Press **Change file** to replace the file.
+4. Press **Save ROM** to save the ROM in a new name.
+5. Test the font in the saved ROM using flash cards (e.g. TTDS) or in emulators (e.g. NO$GBA).
