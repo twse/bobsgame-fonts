@@ -19,6 +19,8 @@ Ordinary Unicode fonts for bob's game and non-OpenType-savvy programs (e.g. Micr
 ## Installation Instructions
 https://bobsgame.fandom.com/wiki/Category:Fonts
 
+**Note:** The category about the fonts in this wiki has licensing information for other fonts.
+
 ## NFTR version
 The NFTR includes partial coverage of code page 1252 (the missing characters are the non-breaking space (160/A0h), florin (130/83h) and small tilde). Use [Tinke](https://github.com/pleonex/tinke) to replace the font file.
 1. Get a copy of the More English Training European game cartridge on sellers and dump the ROM file or download the ROM from ROM sites (e.g. ROM Hustler, Emuparadise, etc. etc. etc.) and open it. **NB:** ROM sites and links to pre-patched ROMs are not tolerated by GBAtemp.
