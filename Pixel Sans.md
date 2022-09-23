@@ -171,10 +171,12 @@ The current release includes support for the characters listed below.
 * F884 – Pokémon currency, usually mapped to the dollar sign ($) in Pokémon games
 * F8FF – Apple logo
 
-### Font Linking (Windows and Wine)
-Use the built-in registry editor to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\FontLink\\SystemLink with Pixel Sans Fallback.ttf,Pixel Sans Fallback as value and restart the computer.
+### Font Replacement (PlayStation 3)
+Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** or **Pixel Sans Terminal** or **Pixel Sans Textbook** is named `SCE-PS3-RD-R-LATIN.TTF` and `SCE-PS3-RD-R-LATIN2.TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
-Japanese and Korean users will appreciate that the backslash is replaced with the glyph from Pixel Sans Fallback.
+**P.S.** The console stores its fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the game console language must not be Chinese or Korean). Using the system software with a version older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop or WebPositive) will display a message and disable all features and using the tool under non-hybrid firmwares will show a message on loading.
+
+### Font Linking (Windows and Wine)Use the registry editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
 
 ### Font Linking (OS/2)
 1. Use any OS/2 INI editor, e.g. INITOR or the built-in OS/2 registry editor (OS/2 WARP 4.52 Server for e-Business and above) to edit the system profile (`os2.ini`).
@@ -182,9 +184,213 @@ Japanese and Korean users will appreciate that the backslash is replaced with th
 3. Add the `PM_AssociateFont` key and enter `Pixel Sans Fallback,12` as the data
 4. Restart the computer for the changes to take effect.
 
-### Setting Pixel Sans Fallback as default for Japanese and Korean in internet browsers
-1. Clone the repository, download the zipped archive or the font separately.
-2. Go to any website in Japanese or Korean.
-3. Open up the font settings in your browser.
-4. Select Pixel Sans Fallback as the default sans-serif font for Japanese and Korean.
-5. Use 8 points as the font size in Netscape or Mozilla. Other operating systems: use 10 points for Haiku and 12 points for OS/2.
+
+### Setting Pixel Sans Fallback as default for Japanese and Korean in web browsers
+1. Clone the repository or download the zipped archive or the font separately.
+2. Enter text in Japanese or Korean or go to any site in these languages.
+3. Open up the font settings in your web browser.
+4. Select Pixel Sans Fallback as the default sans-serif font for Japanese and Korean. (This step only applies to most browsers like Internet Explorer, Firefox and other browsers.)
+5. Use 8 points as the font size in Firefox (including forks) or any other browser. Other operating systems: use 10 points for Haiku or Linux and 12 points for OS/2.
+
+## List of games using the font
+
+### Game Boy Advance
+* 4V4 Arashi Get the Goal
+* Bakuten Shoot Beyblade - Gekitou! Saikyou Blader
+* Black Matrix Zero
+* Captain Tsubasa: Eikō no Kiseki
+* Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Windows Latin-1), but omitting many non-essential Windows characters.
+* Castlevania: Harmony of Dissonance
+* Chu Chu Rocket! – This font is used in the game dialogue.
+* Daisenryaku
+* DiGi Charat: DigiCommunication
+* Dokodemo Taikyoku Yakuman Advance
+* Domokun no Fushigi Terebi
+* Flame of Recca
+* Gadget Racers
+* Gakkō o Tsukurō!! Advance
+* Gensou Suikoden Card Stories
+* GetBackers: Jigoku no Sukaramushu
+* Goemon New Age Shutsudou!
+* Groove Adventure RAVE
+* Gunstar Super Heroes – The font is used in the game dialogue.
+* Hamster Story 2
+* Harvest Moon: Friends of Mineral Town – In the European version, the font starts at 4FAA12 in 16×22 and 4F9128 in 8×12. In the German version, the font starts at 71DDDC and special characters starts at 119BA0 at 8×12. In the USA version, the font starts at 4F90D4 in 8×12.
+* Harvest Moon: More Friends of Mineral Town – In the USA version, the font starts at 9AC902 in 16×12 and 9AB014 in 8×12.
+* High School Examination Advance Series English Construction
+* I am an Air Traffic Controller
+* Jurassic Park: The DNA Factor – In the European version, the font starts in address 70308A in 8×14.
+* Lufia: The Runes of Lore – Some glyphs are modified. The font starts at 71E2EC in 16×13. The USA version replaces the first portion of Hiragana letters with other characters used in the game's intro sequence.
+* Mech Platoon – In the European version, the font starts in address EB900 in 16×12. The font is encoded in the European version according to code page 1252 (Windows Latin-1). Kanji characters are omitted.
+* Meine Liebe
+* Mobile Professional Baseball
+* Monster Guardians
+* Muscular Ranking
+* Rhythm Tengoku – The font is used in the right part of the credits screen.
+* Robot Ponkotto 2
+* Sansara Saga 1×2
+* Shanghai Advance
+* Silent Hill Play Novel
+* Toy Robot Force
+* Wizardry Summoner
+* Yu-Gi-Oh!: Dungeon Dice Monsters
+* Yu-Gi-Oh!: Reshef of Destruction
+* Yu-Gi-Oh!: The Eternal Duelist Soul
+* Yu-Gi-Oh!: The Sacred Cards
+* Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 – The font in the game has a slashed zero to distinguish from the capital o.
+* Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel
+* Yurei Yashiki No Nijuyon Jikan
+
+### Nintendo 3DS
+* Hyrule Warriors Legends – This font is used in the Japanese version only.
+* Pokémon Omega Ruby & Alpha Sapphire – Used during battles.
+* Pokémon Sun & Moon – Used during battles.
+* Pokémon Ultra Sun & Ultra Moon – Used during battles.
+* Pokémon X & Y – Used during battles.
+* Shin Megami Tensei: Devil Summoners: Soul Hackers – Used in parts of user interface, e.g. during battles.
+
+### Nintendo DS
+* 7th Dragon
+* 999: Nine Hours, Nine Persons, Nine Doors
+* Atelier Lina: Alchemist of Strahl
+* Avalon Code
+* A Witch's Tale – This font is used in the Japanese version only.
+* Bakumatsu Renka Shinsengumi DS
+* Battle Spirits Digital Starter
+* Blazer Drive
+* Blue Dragon: Awakened Shadow
+* Brave Story – The font is available in-game as **LC_LD12_12m1j1.NFTR**.
+* Captain Tsubasa: New Kick Off
+* Castlevania: Dawn of Sorrow
+* Castlevania: Order of Ecclesia – The font is available in-game as **LC_KOR12.DAT** (Korean) in the fonts folder with some glyphs modified.
+* Castlevania: Portrait of Ruin
+* Chi's Sweet Home
+* Cho Soju Mecha MG
+* Code Geass: Lelouch of the Rebellion
+* Coropata
+* Cross Treasures
+* Custom Robo Arena
+* Days of Memories series
+* Death Note: Kira's Game
+* Dementium: The Ward – The font is available in-game as **font01.NFTR** through **font06.NFTR**.
+* D.Gray-Man: The Apostles of God - Innocence Accommodators
+* Dogz
+* Doki Doki Majo Shinpan 2 Duo
+* Dungeons and Dams
+* Dungeons of Windaria
+* Element Hunters – The NFTR files are encoded in Unicode, though many Shift-JIS symbols not normally needed in-game are omitted.
+* Emblem of Gundam
+* Eyeshield 21: Max Devilpower!
+* FabStyle
+* Fossil Fighters
+* From the Abyss – The font is available in-game as **SH_LC_12.NFTR** and **SH_LC_12H.NFTR** in the fonts folder.
+* Gakuen Hetalia
+* Go! Go! Cosmo Cops!
+* Golden Sun: Dark Dawn – This font is used in the Japanese version only.
+* Gurenn Lagann
+* Hajime no Ippo: The Fighting!
+* Hayate the Combat Butler: I am Romeo and Romeo is I
+* Hissatsu Kung Fu: Kanji Dragon
+* Hokago Shonen
+* Hoshigami Ruining Blue Earth Remix
+* Hotel Dusk: Room 215
+* Inazuma Eleven 2: Blizzard – This font is used in the Japanese version only.
+* Inazuma Eleven 3: Team Ogre Attacks! – This font is used in the Japanese version only. It's not used in the Nintendo 3DS version.
+* I Will Protect You
+* Izuna 2: The Unemployed Ninja Returns
+* Jet Impulse
+* Kaiju Busters
+* Kaiju Busters Powered
+* Kaito Rousseau
+* Keroro RPG: The Knight, the Warrior, and the Legendary Pirate
+* Ketsui: Death Label Kizuna Jigoku Tachi
+* Kimi no Yusha
+* Konami Classics Series: Arcade Hits
+* Koshonin DS
+* Kousoku Card Battle: Card Hero
+* Last Window: The Secret of Cape West
+* Legacy of Ys: Books I & II
+* L.O.L.
+* Lost in Blue II – The font is available in-game as **font0** or **font1** or **font_01** through **font_04** in NANR, NCER or NCGR.
+* Love Plus series
+* Lufia: Curse of the Sinistrals – This font is used in the Japanese version only.
+* Luminous Arc series
+* Lupin 3: The Historic Battle of Brains
+* Machi-ing Maker DS
+* Make 10: A Journey of Numbers
+* Medarot DS: Kabuto Version
+* Metal Max 2
+* Metal Max 3
+* Metal Slug 7 – The font is available in-game as **font_EU.NFTR** (European) and **font_JP.NFTR** (Japanese) in the fonts folder.
+* Metcha! Taiko no Tatsujin DS: 7-tsu no Shima no Daibōken
+* Miami Law
+* Mini Yonkyu DS
+* Mobile Suit Gundam 00
+* More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. The NFTR in the Japanese version is based on Shift-JIS, though many Shift-JIS symbols not normally needed in-game are omitted. The NFTR in the European version is based on Windows Latin-1.
+* Mumin no Okurimono
+* MySims
+* MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder.
+* MySims Camera (DSiWare)
+* MySims Kingdom
+* MySims Party
+* Namco Museum DS
+* Naruto Shippuden: Ninjutsu Zenkai! Cha-CRASH!
+* New Super Mario Bros. – This font is used in the Japanese version only.
+* Ni no Kuni: Dominion of the Dark Djinn
+* Nodame Cantabile
+* Nora and the Time Studio: The Witch of the Misty Forest
+* Okaeri! Chibi-Robo! Happy Richie Osoji
+* Ouran High School Host Club DS
+* Picross DS (from the Touch! Generations series)
+* Pokémon Black & White (also used in beta release and its sequel) – The font is available in-game as **a/0/2/3/3_0.RTFN** based on the country/region the game is played. The font is in Unicode, however all Greek and many Cyrillic characters are omitted.
+* Pokémon Conquest – This font is used in the Japanese version only.
+* Pokémon Diamond & Pearl – This font is used in beta release.
+* Pokémon HeartGold & SoulSilver – This font is used in beta release.
+* Pokémon Platinum – This font is used in beta release.
+* Populous DS
+* Poupee Girl DS
+* Professor Layton series – This font is used in the Japanese version only.
+* QuickSpot – This font is used in the Japanese version only.
+* Ragnarök DS
+* Really? Really! DS
+* Retro Game Challenge 2
+* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation marks are not bold.
+* Sands of Destruction
+* SD Gundam G Generation: Cross Drive
+* Shining Force Feather
+* SimCity Creator DS
+* SimCity DS
+* SNK vs. Capcom: Card Fighters DS
+* Solatorobo: Red the Hunter
+* Soma Bringer
+* Sora no Otoshimono Forte: Dreamy Season
+* Space Invaders Extreme – Used in descriptions of each option in the menu.
+* Space Invaders Extreme 2 – Used in descriptions of each option in the menu.
+* Spice and Wolf: My One Year with Holo
+* Steal Princess
+* Suikoden Tierkreis
+* Summon Night X: Tears Crown – Punctuation marks are not bold.
+* Super Dodgeball Brawlers
+* SuperLite2500: Crimson Room
+* Super Princess Peach
+* Super Robot Taisen OG Saga: Mugen no Frontier EXCEED
+* Tactical Guild
+* Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
+* Taiko no Tatsujin DS: Touch de Dokodon!
+* Tales of Hearts
+* The Dark Spire
+* The Idol Master: Deadly Stars
+* The Nameless Game
+* TOEIC TEST DS Training – This font is used in the dictionary with revised glyphs.
+* Tokimeki Majo Shinken 2 Duo
+* Tokimeki Memorial: Girl's Side series
+* Tokyo Beat Down
+* Trauma Center: Under the Knife series
+* Vampire Knight
+* WarioWare: D.I.Y. – This font is used in the Japanese version only.
+* Wizardry: Bokyaku no Isan
+* Wizardry: Seimei no Kusabi
+* Wizman World
+* Ys DS – The font is available in-game as NFTR in the font folder. The third Kanji set is not normally needed in-game and omitted.
+* Yu-Gi-Oh! 5D's - Stardust Accelerator - World Championship 2009 – The font in the game has a slashed zero to distinguish from the capital o.
+* Yu-Gi-Oh! World Championship 2008 – The font in the game has a slashed zero to distinguish from the capital o.
