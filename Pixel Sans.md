@@ -95,7 +95,6 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * EE01-EEAD – Cyrillic letters (TITUS)
 * F11E-F11F, F12A-F12B, F150-F151, F160-F163 – ISO 15919 diacritics from URW Palladio HOT
 * F4D0-F4D9 – lowercase descending numerals
-* F5CC – Oblique Hyphen
 * F638 – slashed zero (Fixedsys Excelsior)
 * F664-F669 – Symbols from Zone of the Enders: The Fist of Mars
 * F6C3, F6D4-F6D8, F6DC-F6DD, F730-F739, F74A, F76A – Adobe PUA
@@ -104,7 +103,6 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F7E4 – Alternative Cyrillic “be”, used in Serbian and Macedonian languages
 * F800-F807 – Diacritics used in the ALA-LC transliteration scheme and Colombian native languages
 * F814-F82D – Diacritics for African languages
-* F830-F835 – Dotless Latin letters
 * F870-F888 – Symbols used by the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The .RTFN font files in the game (encoded in Unicode) redefines the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
 * F8FF – Apple logo
 
@@ -369,7 +367,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Ragnarök DS
 * Really? Really! DS
 * Retro Game Challenge 2
-* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation is not bold. Not used in other games in the franchise (e.g. the Romancing SaGa games).
+* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation marks are not bold.
 * Sands of Destruction
 * SD Gundam G Generation: Cross Drive
 * Shining Force Feather
@@ -387,7 +385,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Summon Night X: Tears Crown – Punctuation marks are not bold.
 * Super Dodgeball Brawlers
 * SuperLite2500: Crimson Room
-* Super Princess Peach – Not used in the Switch title (Princess Peach: Showtime).
+* Super Princess Peach
 * Super Robot Taisen OG Saga: Mugen no Frontier EXCEED
 * Tactical Guild
 * Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
