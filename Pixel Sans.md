@@ -70,7 +70,6 @@ The current release includes support for the characters listed below.
 | A640-A69F | Cyrillic Extended-B                     | (all)    |
 | A700-A71F | Modifier Tone Letters                   | (all)    |
 | A720-A7FF | Latin Extended-D                        | (all)    |
-| A830-A83F | Common Indic Number Forms               | (all)    |
 | AB30-AB6F | Latin Extended-E                        | (all)    |
 | AB70-ABBF | Cherokee Supplement                     | (all)    |
 | FB00-FB4F | Alphabetic Presentation Forms           | (all)    |
@@ -96,8 +95,6 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * EE01-EEAD – Cyrillic letters (TITUS)
 * F11E-F11F, F12A-F12B, F150-F151, F160-F163 – ISO 15919 diacritics from URW Palladio HOT
 * F4D0-F4D9 – lowercase descending numerals
-* F4EA, F50A – long k
-* F5CC – Oblique Hyphen
 * F638 – slashed zero (Fixedsys Excelsior)
 * F664-F669 – Symbols from Zone of the Enders: The Fist of Mars
 * F6C3, F6D4-F6D8, F6DC-F6DD, F730-F739, F74A, F76A – Adobe PUA
@@ -106,7 +103,6 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F7E4 – Alternative Cyrillic “be”, used in Serbian and Macedonian languages
 * F800-F807 – Diacritics used in the ALA-LC transliteration scheme and Colombian native languages
 * F814-F82D – Diacritics for African languages
-* F830-F835 – Dotless Latin letters
 * F870-F888 – Symbols used by the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The .RTFN font files in the game (encoded in Unicode) redefines the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
 * F8FF – Apple logo
 
@@ -175,7 +171,8 @@ The current release includes support for the characters listed below.
 | 1F650-1F67F | Ornamental Dingbats               | 2/48     |
 | 1F800-1F8FF | Supplemental Arrows-C             | 4/162    |
 
-### PUA Characters* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
+### PUA Characters
+* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
 * E06C – Sims currency symbol
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
@@ -187,11 +184,12 @@ The current release includes support for the characters listed below.
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) FileZilla in conjunction with Rebug Toolbox to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.me/hfw/flash_font_replacer/flash_font_replacer.html) or FileZilla in conjunction with Rebug Toolbox. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
-**P.S.** The console stores its fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the game console language must not be Chinese or Korean). Using the system software with a version older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop or WebPositive) will display a message and disable all features and using the tool under non-hybrid firmwares will show a message on loading.
+**P.S.** The console stores the fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed) and can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using in version ≤ 4.81 and non-hybrid firmwares or non-PlayStation 3 browsers (e.g. Firefox Desktop) will disable all features.
 
-### Font Linking (Windows and Wine)Use the registry editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
+### Font Linking (Windows and Wine)
+Use the registry editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
 
 ### Font Linking (OS/2)
 1. Use any OS/2 INI editor, e.g. INITOR or the built-in OS/2 registry editor (OS/2 WARP 4.52 Server for e-Business and above) to edit the system profile (`os2.ini`).
@@ -368,7 +366,7 @@ Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replac
 * Ragnarök DS
 * Really? Really! DS
 * Retro Game Challenge 2
-* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation is not bold. Not used in other games in the franchise (e.g. the Romancing SaGa games).
+* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation marks are not bold.
 * Sands of Destruction
 * SD Gundam G Generation: Cross Drive
 * Shining Force Feather
@@ -386,7 +384,7 @@ Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replac
 * Summon Night X: Tears Crown – Punctuation marks are not bold.
 * Super Dodgeball Brawlers
 * SuperLite2500: Crimson Room
-* Super Princess Peach – Not used in the Switch title (Princess Peach: Showtime).
+* Super Princess Peach
 * Super Robot Taisen OG Saga: Mugen no Frontier EXCEED
 * Tactical Guild
 * Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
