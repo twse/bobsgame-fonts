@@ -178,7 +178,7 @@ The current release includes support for the characters listed below.
 ### Font Replacement (PlayStation 3)
 Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** or **Pixel Sans Terminal** or **Pixel Sans Textbook** is named `SCE-PS3-RD-R-LATIN.TTF` and `SCE-PS3-RD-R-LATIN2.TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
-**P.S.** The console stores its fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the game console language must not be Chinese or Korean). Using the system software with a version older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop or WebPositive) will display a message and disable all features and using the tool under non-hybrid firmwares will show a message on loading.
+**P.S.** The console stores its fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the game console language must not be Chinese or Korean). Using the system software in versions older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop or WebPositive) will display a message and disable all features and using on non-hybrid firmwares will show a message.
 
 ### Font Linking (Windows and Wine)
 Use the registry editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
@@ -281,6 +281,8 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Deca Sports DS – Some glyphs are modified.
 * Dementium: The Ward – The font is available in-game as **font01.NFTR** through **font06.NFTR**.
 * D.Gray-Man: The Apostles of God - Innocence Accommodators
+* Disney Stitch & Jam
+* Disney Stitch & Jam 2
 * Dogz
 * Doki Doki Majo Shinpan 2 Duo
 * Dungeons and Dams
