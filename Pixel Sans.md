@@ -98,7 +98,7 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F11E-F11F, F12A-F12B, F150-F151, F160-F163 – ISO 15919 diacritics from URW Palladio HOT
 * F4D0-F4D9 – Lowercase descending numerals
 * F4E3 – Copyleft
-* F4E9 – Capital J without serif (Textbook only), used in *Pokémon Black & White* and the sequel and other games in the main RPG franchise
+* F4E9 – Capital J without serif (Textbook only), used in *Pokémon Black & White* and its sequel
 * F5CC – Oblique Hyphen
 * F638 – Slashed zero (Fixedsys Excelsior)
 * F664-F669 – Symbols from *Zone of the Enders: The Fist of Mars*
@@ -109,7 +109,7 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F800-F807 – Diacritics used in the ALA-LC transliteration scheme and Colombian native languages
 * F814-F82D – Diacritics for African languages
 * F830-F835 – Latin letters (Quivira)
-* F870-F888 – Symbols in *Pokémon Black & White* and the sequel (Textbook only). The font in the games uses the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols. They're available in the name input screen.
+* F870-F888 – Symbols for use with the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The font in the game uses the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
 * F8FF – Apple logo
 
 ### Supported Characters - Fallback Version 5.0
@@ -172,13 +172,13 @@ The current release includes support for the characters listed below.
 * E34C-E34E, EC7B-EC7E – Nut Fractions
 * F638, F6DC – Adobe PUA
 * F82E – *Tri Force* sign used by *The Legend of Zelda* series
-* F884 – Pokémon currency, usually mapped to the dollar sign ($) in the fonts of all Pokémon games
+* F884 – Pokémon currency, usually mapped to the dollar sign ($) in Pokémon games
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** or **Pixel Sans Terminal** or **Pixel Sans Textbook** is named `SCE-PS3-RD-R-LATIN.TTF` and `SCE-PS3-RD-R-LATIN2.TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is named `SCE-PS3-RD-R-LATIN.TTF` and `SCE-PS3-RD-R-LATIN2.TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
-**P.S.** The console stores its fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the game console language must not be Chinese or Korean). Using the system software in versions older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop or WebPositive) will display a message and disable all features and using on non-hybrid firmwares will show a message.
+**P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using the system software in versions older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox) will display a message and disable all features and using on non-hybrid firmwares will show a message.
 
 ### Font Linking (Windows and Wine)
 Use the registry editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
@@ -251,7 +251,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Pokémon Sun & Moon – Used during battles.
 * Pokémon Ultra Sun & Ultra Moon – Used during battles.
 * Pokémon X & Y – Used during battles.
-* Shin Megami Tensei: Devil Summoners: Soul Hackers – Used in parts of user interface, e.g. during battles.
+* Shin Megami Tensei: Devil Summoners: Soul Hackers – Used in some parts of the UI, such as during battles.
 
 ### Nintendo DS
 * 7th Dragon
@@ -271,7 +271,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Castlevania: Order of Ecclesia – The font is available in-game as **LC_KOR12.DAT** (Korean) in the fonts folder with some glyphs modified.
 * Castlevania: Portrait of Ruin
 * Chi's Sweet Home
-* Cho Soju Mecha MG
+* Chō Soju Mecha MG
 * Code Geass: Lelouch of the Rebellion
 * Coropata
 * Cross Treasures
@@ -401,5 +401,5 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Wizardry: Seimei no Kusabi
 * Wizman World
 * Ys DS – The font is available in-game as NFTR in the font folder. The third Kanji set is not normally needed in-game and omitted.
-* Yu-Gi-Oh! 5D's - Stardust Accelerator - World Championship 2009 – The font in the game has a slashed zero to distinguish from the capital o.
+* Yu-Gi-Oh! 5D's: Stardust Accelerator :World Championship 2009 – The font in the game has a slashed zero to distinguish from the capital o.
 * Yu-Gi-Oh! World Championship 2008 – The font in the game has a slashed zero to distinguish from the capital o.
