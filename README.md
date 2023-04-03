@@ -6,7 +6,7 @@ Ordinary Unicode fonts for bob's game and non-OpenType-savvy programs (e.g. Micr
 * **BobsGame nD** – Based on the font in third/fourth generation Pokémon games with revised glyphs and support for more glyphs. The numbers were taken from *Castlevania: Aria of Sorrow*. Windows Vista and newer displays the font preview as Japanese (25 Kanji letters are included in this font).
 * **Pixel Sans** – Based on the font used in many Nintendo 3DS, Game Boy Advance and Nintendo DS games. This font was created in 2015 with the name **DS Sans**. Windows Vista and newer displays the font preview as Chinese (the ideographs are included in Pixel Sans Fallback).
 * **Pixel Sans Fallback** – For use with Japanese and Korean languages only. **P.S.** `fc-scan` does not show Japanese and Korean in the language fields despite these languages are supported.
-* **Pixel Sans Terminal** – An alternate version with lowercase letters changed to match the font used in [UniPad](http://www.unipad.org/) (Unicode text editor by Sharmahd Computing, 1997-2006).
+* **Pixel Sans Terminal** – Same as in Pixel Sans but with revised glyphs.
 * **Pixel Sans Textbook** – Based on the font used in Pokémon Diamond & Pearl (prototype) or Pokémon Black & White with revised glyphs and support for more glyphs. The character set is same as the non-Fallback Pixel Sans.
 
 ## Tools used
@@ -18,7 +18,7 @@ Ordinary Unicode fonts for bob's game and non-OpenType-savvy programs (e.g. Micr
 ## Installing the TrueType version
 See the [Fonts category in Bob's Game Wiki](https://bobsgame.fandom.com/wiki/Category:Fonts) for installation instructions.
 
-**Note:** This category has licensing information for other fonts.
+**Note:** This category has copyright notices and licenses for other fonts.
 
 ## NFTR version
 The NFTR based on Pixel Sans Textbook (see the index of fonts above) includes partial coverage of code page 1252 (the missing characters are the non-breaking space (used in French for some punctuation marks), florin and small tilde). Use [Tinke](https://github.com/pleonex/tinke) to replace the font file.
