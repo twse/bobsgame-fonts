@@ -12,6 +12,9 @@
 ### Pixel Sans
 <img src="pixel-sans.png">
 
+### Pixel Sans Fallback
+<img src="pixel-sans-fallback.png">
+
 ### Pixel Sans Terminal
 <img src="pixel-sans-terminal.png">
 
