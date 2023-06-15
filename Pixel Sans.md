@@ -178,10 +178,10 @@ The current release includes support for the characters listed below.
 ### Font Replacement (PlayStation 3)
 Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is named `SCE-PS3-RD-R-LATIN.TTF` and `SCE-PS3-RD-R-LATIN2.TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
-**P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using the system software in versions older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox) will display a message and disable all features and using on non-hybrid firmwares will show a message.
+**P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using the system software older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox) will display a message and disable all features or in non-hybrid firmwares will show a message.
 
 ### Font Linking (Windows and Wine)
-Use the registry editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
+Use Registry Editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
 
 ### Font Linking (OS/2)
 1. Use INI editors (e.g. INITOR or the registry editor from OS/2 WARP 4.52 Server for e-Business & above) to edit the system profile (`os2.ini`).
@@ -251,7 +251,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Pokémon Sun & Moon – Used during battles.
 * Pokémon Ultra Sun & Ultra Moon – Used during battles.
 * Pokémon X & Y – Used during battles.
-* Shin Megami Tensei: Devil Summoners: Soul Hackers – Used in some parts of the UI, such as during battles.
+* Shin Megami Tensei: Devil Summoners: Soul Hackers – Used in some parts of the UI, such as during battles. Not used in its sequel for PC and consoles (e.g. PlayStation 4 and PlayStation 5).
 
 ### Nintendo DS
 * 7th Dragon
@@ -271,7 +271,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Castlevania: Order of Ecclesia – The font is available in-game as **LC_KOR12.DAT** (Korean) in the fonts folder with some glyphs modified.
 * Castlevania: Portrait of Ruin
 * Chi's Sweet Home
-* Chō Soju Mecha MG
+* Chō Sōjū Mecha MG
 * Code Geass: Lelouch of the Rebellion
 * Coropata
 * Cross Treasures
@@ -322,6 +322,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * L.O.L.
 * Lost in Blue II – The font is available in-game as **font0** or **font1** or **font_01** through **font_04** in NANR, NCER or NCGR.
 * Love Plus series
+* L - the ProLogue to Death Note: Spiraling Tap
 * Lufia: Curse of the Sinistrals – This font is used in the Japanese version only.
 * Luminous Arc series
 * Lupin 3: The Historic Battle of Brains
@@ -376,6 +377,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Space Invaders Extreme – Used in descriptions of each option in the menu.
 * Space Invaders Extreme 2 – Used in descriptions of each option in the menu.
 * Spice and Wolf: My One Year with Holo
+* Spice and Wolf: The Wind that Spans the Sea – The font in the game has a serif in the number one.
 * Steal Princess
 * Suikoden Tierkreis
 * Summon Night X: Tears Crown – Punctuation marks are not bold.
