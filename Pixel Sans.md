@@ -280,6 +280,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Death Note: Kira's Game
 * Deca Sports DS – Some glyphs are modified.
 * Dementium: The Ward – The font is available in-game as **font01.NFTR** through **font06.NFTR**.
+* Destiny Links
 * D.Gray-Man: The Apostles of God - Innocence Accommodators
 * Disney Stitch & Jam
 * Disney Stitch & Jam 2
@@ -320,9 +321,9 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Last Window: The Secret of Cape West
 * Legacy of Ys: Books I & II
 * L.O.L.
-* Lost in Blue II – The font is available in-game as **font0** or **font1** or **font_01** through **font_04** in NANR, NCER or NCGR.
+* Lost in Blue II – The font is available in-game as **font0/1** or **font_01–04** in NANR, NCER and NCGR.
 * Love Plus series
-* L - the ProLogue to Death Note: Spiraling Tap
+* L - the ProLogue to Death Note: Spiraling Trap
 * Lufia: Curse of the Sinistrals – This font is used in the Japanese version only.
 * Luminous Arc series
 * Lupin 3: The Historic Battle of Brains
@@ -336,7 +337,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Miami Law
 * Mini Yonkyu DS
 * Mobile Suit Gundam 00
-* More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. The NFTR in the Japanese version is based on Shift-JIS, though many Shift-JIS symbols not normally needed in-game are omitted. The NFTR in the European version is based on Windows Latin-1.
+* More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. The NFTR in the Japanese version is based on Shift-JIS, but omitting many Shift-JIS characters. The NFTR in the European version is based on Windows Latin-1.
 * Mumin no Okurimono
 * MySims
 * MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder.
@@ -352,7 +353,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Okaeri! Chibi-Robo! Happy Richie Ōsōji
 * Ōran High School Host Club DS
 * Picross DS (from the Touch! Generations series)
-* Pokémon Black & White (also used in beta release and its sequel) – The font is available in-game as **a/0/2/3/3_0.RTFN** based on the country/region the game is played. The font is in Unicode, however all Greek and many Cyrillic characters are omitted.
+* Pokémon Black & White (also used in beta release and its sequel) – The font is available in-game as **a/0/2/3/3_0.RTFN** based on the region the game is played. The font is in Unicode, however all Greek and many Cyrillic characters are omitted.
 * Pokémon Conquest – This font is used in the Japanese version only.
 * Pokémon Diamond & Pearl – This font is used in beta release.
 * Pokémon HeartGold & SoulSilver – This font is used in beta release.
@@ -368,6 +369,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Sands of Destruction
 * SD Gundam G Generation: Cross Drive
 * Shining Force Feather
+* Sigma Harmonics
 * SimCity Creator DS
 * SimCity DS
 * SNK vs. Capcom: Card Fighters DS
@@ -402,6 +404,6 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Wizardry: Bokyaku no Isan
 * Wizardry: Seimei no Kusabi
 * Wizman World
-* Ys DS – The font is available in-game as NFTR in the font folder. The third Kanji set is not normally needed in-game and omitted.
-* Yu-Gi-Oh! 5D's: Stardust Accelerator :World Championship 2009 – The font in the game has a slashed zero to distinguish from the capital o.
-* Yu-Gi-Oh! World Championship 2008 – The font in the game has a slashed zero to distinguish from the capital o.
+* Ys DS – The font is available in-game as NFTR in the font folder. The third Kanji set is not included.
+* Yu-Gi-Oh! 5D's: Stardust Accelerator :World Championship 2009 – The font in the game has a slashed zero.
+* Yu-Gi-Oh! World Championship 2008 – The font in the game has a slashed zero.
