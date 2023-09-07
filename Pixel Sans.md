@@ -176,9 +176,9 @@ The current release includes support for the characters listed below.
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is named `SCE-PS3-RD-R-LATIN.TTF` and `SCE-PS3-RD-R-LATIN2.TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is named `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
-**P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using the system software older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox) will display a message and disable all features or in non-hybrid firmwares will show a message.
+**P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). It can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using the system software older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox) will display a message and disable all features or in non-hybrid firmwares will show a message.
 
 ### Font Linking (Windows and Wine)
 Use Registry Editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
@@ -203,7 +203,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Bakuten Shoot Beyblade - Gekitou! Saikyou Blader
 * Black Matrix Zero
 * Captain Tsubasa: Eikō no Kiseki
-* Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Windows Latin-1), but omitting many non-essential Windows characters.
+* Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Microsoft Latin-1), but many non-essential characters are omitted.
 * Castlevania: Harmony of Dissonance
 * Chu Chu Rocket! – This font is used in the game dialogue.
 * Daisenryaku
@@ -230,7 +230,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Mobile Professional Baseball
 * Monster Guardians
 * Muscular Ranking
-* Rhythm Tengoku – The font is used in the right part of the credits screen.
+* Rhythm Tengoku – The font is used in the right side of the credits screen.
 * Robot Ponkotto 2
 * Sansara Saga 1×2
 * Shanghai Advance
@@ -337,7 +337,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Miami Law
 * Mini Yonkyu DS
 * Mobile Suit Gundam 00
-* More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. The NFTR in the Japanese version is based on Shift-JIS, but omitting many Shift-JIS characters. The NFTR in the European version is based on Windows Latin-1.
+* More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. ``LC12.NFTR`` in the Japanese version of the game is encoded according to Shift-JIS, but many Kanji syllables and non-essential Shift-JIS characters are omitted. ``European_LC12.NFTR`` in the European version of the game is encoded according to Microsoft Latin-1.
 * Mumin no Okurimono
 * MySims
 * MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder.
