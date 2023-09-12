@@ -166,7 +166,7 @@ The current release includes support for the characters listed below.
 | FFF0-FFFF | Specials                           | 1/5        |
 
 ### PUA Characters
-* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Symbols for Nintendo DS and Nintendo Wii
+* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode for these symbols.
 * E06C – Sims currency symbol
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
@@ -192,8 +192,8 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 ### Setting Pixel Sans Fallback as default for Japanese and Korean in web browsers
 1. Clone the repository or download the zipped archive or the font separately.
 2. Enter text in Japanese or Korean or go to any site in these languages.
-3. Open up the font settings in your web browser.
-4. Select Pixel Sans Fallback as the default sans-serif font for Japanese and Korean. (This step only applies to most browsers like Internet Explorer, Firefox and other browsers.)
+3. Open the font settings in your web browser.
+4. Select Pixel Sans Fallback as the default sans-serif font for Japanese and Korean. (This step applies to most browsers like Internet Explorer, Firefox, Chrome and Microsoft Edge.)
 5. Use 8 points as the font size in Firefox (including forks) or any other browser. Other operating systems: use 10 points for Haiku or Linux and 12 points for OS/2.
 
 ## List of games using the font
@@ -209,23 +209,23 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Daisenryaku
 * DiGi Charat: DigiCommunication
 * Dokodemo Taikyoku Yakuman Advance
-* Domokun no Fushigi Terebi
+* Domo-Kun no Fushigi Telebi
 * Flame of Recca
 * Gadget Racers
 * Gakkō o Tsukurō!! Advance
 * Gensou Suikoden Card Stories
 * GetBackers: Jigoku no Sukaramushu
-* Goemon New Age Shutsudou!
+* Goemon New Age Shutsudō!
 * Groove Adventure RAVE
 * Gunstar Super Heroes – The font is used in the game dialogue.
 * Hamster Story 2
-* Harvest Moon: Friends of Mineral Town – In the European version, the font starts at 4FAA12 in 16×22 and 4F9128 in 8×12. In the German version, the font starts at 71DDDC and special characters starts at 119BA0 at 8×12. In the USA version, the font starts at 4F90D4 in 8×12.
+* Harvest Moon: Friends of Mineral Town – In the European version, the font starts at 4FAA12 in 16×22 and 4F9128 in 8×12. In the German version, the font starts at 71DDDC and special characters starts at 119BA0 at 8×12. In the USA version, the font starts at 4F90D4 in 8×12. Not used in Story of Seasons: Friends of Mineral Town.
 * Harvest Moon: More Friends of Mineral Town – In the USA version, the font starts at 9AC902 in 16×12 and 9AB014 in 8×12.
 * High School Examination Advance Series English Construction
 * I am an Air Traffic Controller
 * Jurassic Park: The DNA Factor – In the European version, the font starts in address 70308A in 8×14.
 * Lufia: The Runes of Lore – Some glyphs are modified. The font starts at 71E2EC in 16×13. The USA version replaces the first portion of Hiragana letters with other characters used in the game's intro sequence.
-* Mech Platoon – In the European version, the font starts in address EB900 in 16×12. The font is encoded in the European version according to code page 1252 (Windows Latin-1). Kanji characters are omitted.
+* Mech Platoon – In the European version, the font starts in address EB900 in 16×12. The font is encoded in the European version according to code page 1252 (Windows Latin-1). Kanji syllables are omitted.
 * Meine Liebe
 * Mobile Professional Baseball
 * Monster Guardians
@@ -235,6 +235,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Sansara Saga 1×2
 * Shanghai Advance
 * Silent Hill Play Novel
+* Tactics Ogre: The Knight of Lodis – Some glyphs are modified. Based on the font from Lufia: The Ruins of Lore
 * Toy Robot Force
 * Wizardry Summoner
 * Yu-Gi-Oh!: Dungeon Dice Monsters
@@ -243,11 +244,11 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Yu-Gi-Oh!: The Sacred Cards
 * Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 – The font in the game has a slashed zero to distinguish from the capital o.
 * Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel
-* Yurei Yashiki No Nijuyon Jikan
+* Yūrei Yashiki No Nijūyon Jikan
 
 ### Nintendo 3DS
-* Hyrule Warriors Legends – This font is used in the Japanese version only.
-* Pokémon Omega Ruby & Alpha Sapphire – Used during battles.
+* Hyrule Warriors Legends – This font is used in the Japanese version only. Not used in its predecessor for Wii U or the Nintendo Switch title “Hyrule Warriors: Age of Calamity”.
+* Pokémon Omega Ruby & Alpha Sapphire – Used during battles. Not used in its predecessor for Game Boy Advance.
 * Pokémon Sun & Moon – Used during battles.
 * Pokémon Ultra Sun & Ultra Moon – Used during battles.
 * Pokémon X & Y – Used during battles.
@@ -305,7 +306,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Hoshigami Ruining Blue Earth Remix
 * Hotel Dusk: Room 215
 * Inazuma Eleven 2: Blizzard – This font is used in the Japanese version only.
-* Inazuma Eleven 3: Team Ogre Attacks! – This font is used in the Japanese version only. It's not used in the Nintendo 3DS version.
+* Inazuma Eleven 3: Team Ogre Attacks! – This font is used in the Japanese version only. Not used in Nintendo 3DS
 * I Will Protect You
 * Izuna 2: The Unemployed Ninja Returns
 * Jet Impulse
@@ -353,7 +354,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Okaeri! Chibi-Robo! Happy Richie Ōsōji
 * Ōran High School Host Club DS
 * Picross DS (from the Touch! Generations series)
-* Pokémon Black & White (also used in beta release and its sequel) – The font is available in-game as **a/0/2/3/3_0.RTFN** based on the region the game is played. The font is in Unicode, however all Greek and many Cyrillic characters are omitted.
+* Pokémon Black & White (also used in beta release and its sequel) – The font is available in-game as **a/0/2/3/3_0.RTFN** based on the region the game is played. The font is in Unicode, but all Greek and some Cyrillic characters are omitted.
 * Pokémon Conquest – This font is used in the Japanese version only.
 * Pokémon Diamond & Pearl – This font is used in beta release.
 * Pokémon HeartGold & SoulSilver – This font is used in beta release.
@@ -405,5 +406,5 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Wizardry: Seimei no Kusabi
 * Wizman World
 * Ys DS – The font is available in-game as NFTR in the font folder. The third Kanji set is not included.
-* Yu-Gi-Oh! 5D's: Stardust Accelerator :World Championship 2009 – The font in the game has a slashed zero.
+* Yu-Gi-Oh! 5D's: Stardust Accelerator: World Championship 2009 – The font in the game has a slashed zero.
 * Yu-Gi-Oh! World Championship 2008 – The font in the game has a slashed zero.
