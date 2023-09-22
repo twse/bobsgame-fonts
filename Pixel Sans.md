@@ -78,7 +78,7 @@ The current release includes support for the characters listed below.
 | FFF0-FFFF | Specials                                | 1/5      |
 
 ### Pixel Sans Textbook
-The textbook font has the same ranges with the following ranges:
+This font has the same ranges with the addition of the following ranges:
 
 | Range     | Description                   | Coverage |
 |-----------|-------------------------------|----------|
@@ -91,7 +91,7 @@ The textbook font has the same ranges with the following ranges:
 The allocation of code points has been co-ordinated with characters in the [TITUS Cyberbit](http://titus.uni-frankfurt.de/), [Junicode](https://junicode.sourceforge.io/), [Alphabetum](http://guindo.pntic.mec.es/~jmag0042/alphaeng.html), Gāndhārī Unicode, Fixedsys Excelsior and [URW Palladio HOT](http://www.sanskritweb.net/fonts/index.html) fonts.
 * E004-E7FD – Latin letters (TITUS)
 * E801-E804 – Hebrew Microsoft PUA
-* E816, E817, E83B, E83C, E842, E843, E854, E855, E87B, E87C, E87E, E87F, E888, E88A, E892, E89C-E8A0, E8B2, F20E, F212, F77B-F77D – Gāndhārī Unicode
+* E816-E817, E83B-E83C, E842-E843, E854-E855, E87B-E87C, E87E-E87F, E888, E88A, E892, E89C-E8A0, E8B2, F20E, F212, F77B-F77D – Gāndhārī Unicode
 * EA00-EB94 – Greek letters (TITUS)
 * EC00-EDFE – Georgian extensions (TITUS)
 * EE01-EEAD – Cyrillic letters (TITUS)
@@ -109,7 +109,7 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F800-F807 – Diacritics used in the ALA-LC transliteration scheme and Colombian native languages
 * F814-F82D – Diacritics for African languages
 * F830-F835 – Latin letters (Quivira)
-* F870-F888 – Symbols for use with the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The font in the game uses the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
+* F870-F888 – Symbols used by the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The font in the game uses the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
 * F8FF – Apple logo
 
 ### Supported Characters - Fallback Version 5.0
@@ -166,7 +166,7 @@ The current release includes support for the characters listed below.
 | FFF0-FFFF | Specials                           | 1/5        |
 
 ### PUA Characters
-* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode for these symbols.
+* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode for some of these symbols.
 * E06C – Sims currency symbol
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
@@ -223,7 +223,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Harvest Moon: More Friends of Mineral Town – In the USA version, the font starts at 9AC902 in 16×12 and 9AB014 in 8×12.
 * High School Examination Advance Series English Construction
 * I am an Air Traffic Controller
-* Jurassic Park: The DNA Factor – In the European version, the font starts in address 70308A in 8×14.
+* Jurassic Park: The DNA Factor – In the European version, the font starts at 70308A in 8×14.
 * Lufia: The Runes of Lore – Some glyphs are modified. The font starts at 71E2EC in 16×13. The USA version replaces the first portion of Hiragana letters with other characters used in the game's intro sequence.
 * Mech Platoon – In the European version, the font starts in address EB900 in 16×12. The font is encoded in the European version according to code page 1252 (Windows Latin-1). Kanji syllables are omitted.
 * Meine Liebe
@@ -306,7 +306,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Hoshigami Ruining Blue Earth Remix
 * Hotel Dusk: Room 215
 * Inazuma Eleven 2: Blizzard – This font is used in the Japanese version only.
-* Inazuma Eleven 3: Team Ogre Attacks! – This font is used in the Japanese version only. Not used in Nintendo 3DS
+* Inazuma Eleven 3: Team Ogre Attacks! – This font is used in the Japanese version only. Not used in the Nintendo 3DS version.
 * I Will Protect You
 * Izuna 2: The Unemployed Ninja Returns
 * Jet Impulse
@@ -338,7 +338,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Miami Law
 * Mini Yonkyu DS
 * Mobile Suit Gundam 00
-* More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. ``LC12.NFTR`` in the Japanese version of the game is encoded according to Shift-JIS, but many Kanji syllables and non-essential Shift-JIS characters are omitted. ``European_LC12.NFTR`` in the European version of the game is encoded according to Microsoft Latin-1.
+* More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. ``LC12.NFTR`` in the Japanese version of the game is encoded according to Shift-JIS, but many Kanji syllables and non-essential Shift-JIS characters are omitted. ``European_LC12.NFTR`` in the European version of the game is encoded according to Unicode/code page 1252 (Microsoft Latin-1).
 * Mumin no Okurimono
 * MySims
 * MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder.
