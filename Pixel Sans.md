@@ -166,7 +166,7 @@ The current release includes support for the characters listed below.
 | FFF0-FFFF | Specials                           | 1/5        |
 
 ### PUA Characters
-* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode for some of these symbols.
+* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but uses the Enclosed Alphanumerics range of Unicode ($2474-$27E9) for some of these symbols.
 * E06C – Sims currency symbol
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
@@ -181,7 +181,7 @@ Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_fon
 **P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). It can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using the system software older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox) will display a message and disable all features or in non-hybrid firmwares will show a message.
 
 ### Font Linking (Windows and Wine)
-Use Registry Editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
+Use Registry Editor (under Windows 10 and 11, the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
 
 ### Font Linking (OS/2)
 1. Use INI editors (e.g. INITOR or the registry editor from OS/2 WARP 4.52 Server for e-Business & above) to edit the system profile (`os2.ini`).
@@ -203,8 +203,8 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Bakuten Shoot Beyblade - Gekitou! Saikyou Blader
 * Black Matrix Zero
 * Captain Tsubasa: Eikō no Kiseki
-* Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Microsoft Latin-1), but many non-essential characters are omitted.
-* Castlevania: Harmony of Dissonance
+* Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Microsoft Latin-1), but many non-essential characters are omitted. Not used in Castlevania Advance Collection.
+* Castlevania: Harmony of Dissonance – Not used in Castlevania Advance Collection.
 * Chu Chu Rocket! – This font is used in the game dialogue.
 * Daisenryaku
 * DiGi Charat: DigiCommunication
@@ -242,7 +242,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Yu-Gi-Oh!: Reshef of Destruction
 * Yu-Gi-Oh!: The Eternal Duelist Soul
 * Yu-Gi-Oh!: The Sacred Cards
-* Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 – The font in the game has a slashed zero to distinguish from the capital o.
+* Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 – The font in the game has a slashed zero.
 * Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel
 * Yūrei Yashiki No Nijūyon Jikan
 
@@ -267,10 +267,11 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Blazer Drive
 * Blue Dragon: Awakened Shadow
 * Brave Story – The font is available in-game as **LC_LD12_12m1j1.NFTR**.
+* Breath: Toiki wa Akaneiro
 * Captain Tsubasa: New Kick Off
-* Castlevania: Dawn of Sorrow
+* Castlevania: Dawn of Sorrow – Some glyphs are modified.
 * Castlevania: Order of Ecclesia – The font is available in-game as **LC_KOR12.DAT** (Korean) in the fonts folder with some glyphs modified.
-* Castlevania: Portrait of Ruin
+* Castlevania: Portrait of Ruin – Some glyphs are modified.
 * Chi's Sweet Home
 * Chō Sōjū Mecha MG
 * Code Geass: Lelouch of the Rebellion
@@ -289,6 +290,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Doki Doki Majo Shinpan 2 Duo
 * Dungeons and Dams
 * Dungeons of Windaria
+* Eigo o Taberu Fushigi na Ikimono Marsh
 * Element Hunters – The NFTR files are encoded in Unicode, though many Shift-JIS symbols not normally needed in-game are omitted.
 * Emblem of Gundam
 * Eyeshield 21: Max Devilpower!
@@ -346,13 +348,17 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * MySims Kingdom
 * MySims Party
 * Namco Museum DS
+* Nana: Live Staff Daiboshū! Shoshinsha Kangei
+* Nanami no Oshiete Eibunpō DS: Kisokara Manabu Step Up Gakushū
 * Naruto Shippuden: Ninjutsu Zenkai! Cha-CRASH!
+* New Shikakui Atama o Maru Kusuru DS
 * New Super Mario Bros. – This font is used in the Japanese version only.
 * Ni no Kuni: Dominion of the Dark Djinn
 * Nodame Cantabile
 * Nora and the Time Studio: The Witch of the Misty Forest
 * Okaeri! Chibi-Robo! Happy Richie Ōsōji
 * Ōran High School Host Club DS
+* Paws & Claws: Marine Rescue
 * Picross DS (from the Touch! Generations series)
 * Pokémon Black & White (also used in beta release and its sequel) – The font is available in-game as **a/0/2/3/3_0.RTFN** based on the region the game is played. The font is in Unicode, but all Greek and some Cyrillic characters are omitted.
 * Pokémon Conquest – This font is used in the Japanese version only.
@@ -394,6 +400,7 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Tales of Hearts
 * The Dark Spire
 * The Idol Master: Deadly Stars
+* Theme Park
 * The Nameless Game
 * TOEIC TEST DS Training – This font is used in the dictionary with revised glyphs.
 * Tokimeki Majo Shinken 2 Duo
@@ -405,6 +412,10 @@ Use Registry Editor (under Windows 10 and 11 the program is available as a short
 * Wizardry: Bokyaku no Isan
 * Wizardry: Seimei no Kusabi
 * Wizman World
-* Ys DS – The font is available in-game as NFTR in the font folder. The third Kanji set is not included.
+* Ys DS – The font is available in-game as NFTR in the font folder. The third Kanji set is omitted.
 * Yu-Gi-Oh! 5D's: Stardust Accelerator: World Championship 2009 – The font in the game has a slashed zero.
 * Yu-Gi-Oh! World Championship 2008 – The font in the game has a slashed zero.
+
+### Other Mobile
+* Devil May Cry: Dante × Virgil for SH
+* Monster Hunter i – The font in the game has a slashed zero.
