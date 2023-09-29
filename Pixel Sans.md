@@ -166,7 +166,7 @@ The current release includes support for the characters listed below.
 | FFF0-FFFF | Specials                           | 1/5        |
 
 ### PUA Characters
-* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but uses the Enclosed Alphanumerics range of Unicode ($2474-$27E9) for some of these symbols.
+* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but uses the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
 * E06C – Sims currency symbol
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
@@ -235,7 +235,7 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Sansara Saga 1×2
 * Shanghai Advance
 * Silent Hill Play Novel
-* Tactics Ogre: The Knight of Lodis – Some glyphs are modified. Based on the font from Lufia: The Ruins of Lore
+* Tactics Ogre: The Knight of Lodis – Some glyphs are modified. Based on the font from Lufia: The Runes of Lore
 * Toy Robot Force
 * Wizardry Summoner
 * Yu-Gi-Oh!: Dungeon Dice Monsters
@@ -295,7 +295,7 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Emblem of Gundam
 * Eyeshield 21: Max Devilpower!
 * FabStyle
-* Fossil Fighters
+* Fossil Fighters – Not used in the 3DS titles.
 * From the Abyss – The font is available in-game as **SH_LC_12.NFTR** and **SH_LC_12H.NFTR** in the fonts folder.
 * Gakuen Hetalia
 * Go! Go! Cosmo Cops!
@@ -343,10 +343,10 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. ``LC12.NFTR`` in the Japanese version of the game is encoded according to Shift-JIS, but many Kanji syllables and non-essential Shift-JIS characters are omitted. ``European_LC12.NFTR`` in the European version of the game is encoded according to Unicode/code page 1252 (Microsoft Latin-1).
 * Mumin no Okurimono
 * MySims
-* MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder.
+* MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder. Not used in the Wii version.
 * MySims Camera (DSiWare)
-* MySims Kingdom
-* MySims Party
+* MySims Kingdom – Not used in the Wii version.
+* MySims Party – Not used in the Wii version.
 * Namco Museum DS
 * Nana: Live Staff Daiboshū! Shoshinsha Kangei
 * Nanami no Oshiete Eibunpō DS: Kisokara Manabu Step Up Gakushū
