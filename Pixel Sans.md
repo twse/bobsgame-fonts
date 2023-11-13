@@ -101,7 +101,7 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F4E9 – Capital J without serif (Textbook only), used in *Pokémon Black & White* and its sequel
 * F5CC – Oblique Hyphen
 * F638 – Slashed zero (Fixedsys Excelsior)
-* F664-F669 – Symbols from *Zone of the Enders: The Fist of Mars*
+* F664-F669 – Symbols from *Zone of the Enders: The Fist of Mars*. The glyphs from the font in the game horizontally flips two rows.
 * F6C3, F6D4-F6D8, F6DC-F6DD, F730-F739, F74A, F76A – Adobe PUA
 * F700, F70F – Microsoft PUA (Thai)
 * F704-F709, F70B-F70C, F715-F71C – Metrics symbols from URW Palladio HOT
@@ -224,18 +224,18 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * High School Examination Advance Series English Construction
 * I am an Air Traffic Controller
 * Jurassic Park: The DNA Factor – In the European version, the font starts at 70308A in 8×14.
-* Lufia: The Runes of Lore – Some glyphs are modified. The font starts at 71E2EC in 16×13. The USA version replaces the first portion of Hiragana letters with other characters used in the game's intro sequence.
+* Lufia: The Runes of Lore – Some glyphs are modified. The font starts at 71E2EC in 16×13. The USA version replaces the first portion of Hiragana letters with other characters used in the game's intro sequence. Not used in games for other consoles in the franchise, e.g. Nintendo DS and Game Boy Color.
 * Mech Platoon – In the European version, the font starts in address EB900 in 16×12. The font is encoded in the European version according to code page 1252 (Windows Latin-1). Kanji syllables are omitted.
 * Meine Liebe
 * Mobile Professional Baseball
 * Monster Guardians
 * Muscular Ranking
-* Rhythm Tengoku – The font is used in the right side of the credits screen.
+* Rhythm Tengoku – The font is used in the right side of the credits screen. Not used in the DS, Wii or 3DS version
 * Robot Ponkotto 2
 * Sansara Saga 1×2
 * Shanghai Advance
 * Silent Hill Play Novel
-* Tactics Ogre: The Knight of Lodis – Some glyphs are modified. Based on the font from Lufia: The Runes of Lore
+* Tactics Ogre: The Knight of Lodis – Some glyphs are modified. Based on the font from Lufia: The Runes of Lore. Not used in the PSP title or its remake (Tactics Ogre: Reborn).
 * Toy Robot Force
 * Wizardry Summoner
 * Yu-Gi-Oh!: Dungeon Dice Monsters
@@ -292,19 +292,19 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Dungeons of Windaria
 * Eigo o Taberu Fushigi na Ikimono Marsh
 * Element Hunters – The NFTR files are encoded in Unicode, though many Shift-JIS symbols not normally needed in-game are omitted.
-* Emblem of Gundam
+* Emblem of Gundam – Not used in other games in the franchise (e.g. SD Gundam Battle Alliance).
 * Eyeshield 21: Max Devilpower!
 * FabStyle
 * Fossil Fighters – Not used in the 3DS titles.
 * From the Abyss – The font is available in-game as **SH_LC_12.NFTR** and **SH_LC_12H.NFTR** in the fonts folder.
 * Gakuen Hetalia
 * Go! Go! Cosmo Cops!
-* Golden Sun: Dark Dawn – This font is used in the Japanese version only.
+* Golden Sun: Dark Dawn – This font is used in the Japanese version only. Not used in the Game Boy Advance titles.
 * Gurenn Lagann
 * Hajime no Ippo: The Fighting!
 * Hayate the Combat Butler: I am Romeo and Romeo is I
 * Hissatsu Kung Fu: Kanji Dragon
-* Hokago Shonen
+* Hōkago Shōnen
 * Hoshigami Ruining Blue Earth Remix
 * Hotel Dusk: Room 215
 * Inazuma Eleven 2: Blizzard – This font is used in the Japanese version only.
@@ -339,10 +339,10 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Metcha! Taiko no Tatsujin DS: 7-tsu no Shima no Daibōken
 * Miami Law
 * Mini Yonkyu DS
-* Mobile Suit Gundam 00
+* Mobile Suit Gundam 00 – Not used in other games in the franchise (e.g. SD Gundam Battle Alliance).
 * More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. ``LC12.NFTR`` in the Japanese version of the game is encoded according to Shift-JIS, but many Kanji syllables and non-essential Shift-JIS characters are omitted. ``European_LC12.NFTR`` in the European version of the game is encoded according to Unicode/code page 1252 (Microsoft Latin-1).
 * Mumin no Okurimono
-* MySims
+* MySims – Not used in the PC and Wii versions.
 * MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder. Not used in the Wii version.
 * MySims Camera (DSiWare)
 * MySims Kingdom – Not used in the Wii version.
@@ -353,10 +353,10 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Naruto Shippuden: Ninjutsu Zenkai! Cha-CRASH!
 * New Shikakui Atama o Maru Kusuru DS
 * New Super Mario Bros. – This font is used in the Japanese version only.
-* Ni no Kuni: Dominion of the Dark Djinn
+* Ni no Kuni: Dominion of the Dark Djinn – Not used in other games in the franchise (Wrath of the White Witch and Revenant Kingdom).
 * Nodame Cantabile
 * Nora and the Time Studio: The Witch of the Misty Forest
-* Okaeri! Chibi-Robo! Happy Richie Ōsōji
+* Okaeri! Chibi-Robo! Happy Richie Ōsōji 
 * Ōran High School Host Club DS
 * Paws & Claws: Marine Rescue
 * Picross DS (from the Touch! Generations series)
@@ -367,7 +367,7 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Pokémon Platinum – This font is used in beta release.
 * Populous DS
 * Poupee Girl DS
-* Professor Layton series – This font is used in the Japanese version only.
+* Professor Layton series – This font is used in the Japanese version only. Not used in 3DS titles in the franchise.
 * QuickSpot – This font is used in the Japanese version only.
 * Ragnarök DS
 * Really? Really! DS
@@ -397,7 +397,7 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Tactical Guild
 * Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
 * Taiko no Tatsujin DS: Touch de Dokodon!
-* Tales of Hearts
+* Tales of Hearts – Not used in other games in the franchise, e.g. Tales of Arise.
 * The Dark Spire
 * The Idol Master: Deadly Stars
 * Theme Park
@@ -408,7 +408,7 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Tokyo Beat Down
 * Trauma Center: Under the Knife series
 * Vampire Knight
-* WarioWare: D.I.Y. – This font is used in the Japanese version only.
+* WarioWare: D.I.Y. – This font is used in the Japanese version only. Not used in Switch titles from the franchise (Gold and Move It).
 * Wizardry: Bokyaku no Isan
 * Wizardry: Seimei no Kusabi
 * Wizman World
