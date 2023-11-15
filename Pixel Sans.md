@@ -181,7 +181,7 @@ Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_fon
 **P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). It can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using the system software older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox) will display a message and disable all features or in non-hybrid firmwares will show a message.
 
 ### Font Linking (Windows and Wine)
-Use Registry Editor (under Windows 10 and 11, the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
+Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Administrative Tools**, not previous versions: find `regedit.exe` under the directory where Windows is installed) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
 
 ### Font Linking (OS/2)
 1. Use INI editors (e.g. INITOR or the registry editor from OS/2 WARP 4.52 Server for e-Business & above) to edit the system profile (`os2.ini`).
@@ -338,7 +338,7 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Metal Slug 7 – The font is available in-game as **font_EU.NFTR** (European) and **font_JP.NFTR** (Japanese) in the fonts folder.
 * Metcha! Taiko no Tatsujin DS: 7-tsu no Shima no Daibōken
 * Miami Law
-* Mini Yonkyu DS
+* Mini Yonkyū DS
 * Mobile Suit Gundam 00 – Not used in other games in the franchise (e.g. SD Gundam Battle Alliance).
 * More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. ``LC12.NFTR`` in the Japanese version of the game is encoded according to Shift-JIS, but many Kanji syllables and non-essential Shift-JIS characters are omitted. ``European_LC12.NFTR`` in the European version of the game is encoded according to Unicode/code page 1252 (Microsoft Latin-1).
 * Mumin no Okurimono
@@ -397,13 +397,13 @@ Use Registry Editor (under Windows 10 and 11, the program is available as a shor
 * Tactical Guild
 * Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
 * Taiko no Tatsujin DS: Touch de Dokodon!
-* Tales of Hearts – Not used in other games in the franchise, e.g. Tales of Arise.
+* Tales of Hearts – Not used in other games in the franchise (e.g. Tales of Arise).
 * The Dark Spire
 * The Idol Master: Deadly Stars
 * Theme Park
 * The Nameless Game
 * TOEIC TEST DS Training – This font is used in the dictionary with revised glyphs.
-* Tokimeki Majo Shinken 2 Duo
+* Tokimeki Majō Shinken 2 Duo
 * Tokimeki Memorial: Girl's Side series
 * Tokyo Beat Down
 * Trauma Center: Under the Knife series
