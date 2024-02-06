@@ -98,7 +98,7 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F11E-F11F, F12A-F12B, F150-F151, F160-F163 – ISO 15919 diacritics from URW Palladio HOT
 * F4D0-F4D9 – Lowercase descending numerals
 * F4E3 – Copyleft
-* F4E9 – Capital J without serif (Textbook only), used in *Pokémon Black & White* and its sequel
+* F4E9 – Capital J without serif (Textbook only), used in beta releases of *Pokémon Diamond & Pearl* to *Pokémon Black & White 2*
 * F5CC – Oblique Hyphen
 * F638 – Slashed zero (Fixedsys Excelsior)
 * F664-F669 – Symbols from *Zone of the Enders: The Fist of Mars*. The glyphs from the font in the game horizontally flips two rows.
@@ -106,10 +106,10 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F700, F70F – Microsoft PUA (Thai)
 * F704-F709, F70B-F70C, F715-F71C – Metrics symbols from URW Palladio HOT
 * F7E4 – Alternative Cyrillic “be” for Serbian and Macedonian
-* F800-F807 – Diacritics used in the ALA-LC transliteration scheme and Colombian native languages
+* F800-F807 – Diacritics used for ALA-LC transliteration and native languages in Colombia
 * F814-F82D – Diacritics for African languages
 * F830-F835 – Latin letters (Quivira)
-* F870-F888 – Symbols used by the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The font in the game uses the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
+* F870-F888 – Symbols used by the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The .RTFN font files in the game (encoded in Unicode) redefines the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
 * F8FF – Apple logo
 
 ### Supported Characters - Fallback Version 5.0
@@ -166,7 +166,7 @@ The current release includes support for the characters listed below.
 | FFF0-FFFF | Specials                           | 1/5        |
 
 ### PUA Characters
-* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but uses the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
+* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
 * E06C – Sims currency symbol
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
@@ -176,9 +176,9 @@ The current release includes support for the characters listed below.
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is named `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use the [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) as part of the PS3Xploit Tools or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is named `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
-**P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). It can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using the system software older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox) will display a message and disable all features or in non-hybrid firmwares will show a message.
+**P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed) and can be changed in **Settings: Theme Settings: Font** (the system software must not be Chinese or Korean). Using system software versions older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop) will disable all features or in non-hybrid firmwares will show a message.
 
 ### Font Linking (Windows and Wine)
 Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Administrative Tools**, not previous versions: find `regedit.exe` under the directory where Windows is installed) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
@@ -203,7 +203,7 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Bakuten Shoot Beyblade - Gekitou! Saikyou Blader
 * Black Matrix Zero
 * Captain Tsubasa: Eikō no Kiseki
-* Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Microsoft Latin-1), but many non-essential characters are omitted. Not used in Castlevania Advance Collection.
+* Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Windows Latin-1), but many non-essential characters are omitted. Not used in Castlevania Advance Collection.
 * Castlevania: Harmony of Dissonance – Not used in Castlevania Advance Collection.
 * Chu Chu Rocket! – This font is used in the game dialogue.
 * Daisenryaku
@@ -230,7 +230,7 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Mobile Professional Baseball
 * Monster Guardians
 * Muscular Ranking
-* Rhythm Tengoku – The font is used in the right side of the credits screen. Not used in the DS, Wii or 3DS version
+* Rhythm Tengoku – The font is used in the right side of the credits screen. Not used in the DS, Wii or 3DS versions.
 * Robot Ponkotto 2
 * Sansara Saga 1×2
 * Shanghai Advance
@@ -247,8 +247,8 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Yūrei Yashiki No Nijūyon Jikan
 
 ### Nintendo 3DS
-* Hyrule Warriors Legends – This font is used in the Japanese version only. Not used in its predecessor for Wii U or the Nintendo Switch title “Hyrule Warriors: Age of Calamity”.
-* Pokémon Omega Ruby & Alpha Sapphire – Used during battles. Not used in its predecessor for Game Boy Advance.
+* Hyrule Warriors Legends – This font is used in the Japanese version only. Not used in the Wii U version or the Switch version “Hyrule Warriors: Age of Calamity”.
+* Pokémon Omega Ruby & Alpha Sapphire – Used during battles. Not used in the Game Boy Advance version.
 * Pokémon Sun & Moon – Used during battles.
 * Pokémon Ultra Sun & Ultra Moon – Used during battles.
 * Pokémon X & Y – Used during battles.
@@ -340,7 +340,7 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Miami Law
 * Mini Yonkyū DS
 * Mobile Suit Gundam 00 – Not used in other games in the franchise (e.g. SD Gundam Battle Alliance).
-* More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. ``LC12.NFTR`` in the Japanese version of the game is encoded according to Shift-JIS, but many Kanji syllables and non-essential Shift-JIS characters are omitted. ``European_LC12.NFTR`` in the European version of the game is encoded according to Unicode/code page 1252 (Microsoft Latin-1).
+* More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. ``LC12.NFTR`` in the Japanese version of the game is encoded according to Shift-JIS, but many Kanji syllables and non-essential Shift-JIS characters are omitted. ``European_LC12.NFTR`` in the European version of the game is encoded according to Unicode/code page 1252 (Windows Latin-1).
 * Mumin no Okurimono
 * MySims – Not used in the PC and Wii versions.
 * MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder. Not used in the Wii version.
@@ -359,8 +359,8 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Okaeri! Chibi-Robo! Happy Richie Ōsōji 
 * Ōran High School Host Club DS
 * Paws & Claws: Marine Rescue
-* Picross DS (from the Touch! Generations series)
-* Pokémon Black & White (also used in beta release and its sequel) – The font is available in-game as **a/0/2/3/3_0.RTFN** based on the region the game is played. The font is in Unicode, but all Greek and some Cyrillic characters are omitted.
+* Picross DS (from the Touch! Generations series) – Not used in its sequel and the 3DS titles.
+* Pokémon Black & White (also used in beta release and its sequel) – The font is available in-game as **a/0/2/3/3_0.RTFN**. The font is in Unicode, but all Greek and some Cyrillic characters are omitted.
 * Pokémon Conquest – This font is used in the Japanese version only.
 * Pokémon Diamond & Pearl – This font is used in beta release.
 * Pokémon HeartGold & SoulSilver – This font is used in beta release.
@@ -372,7 +372,7 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Ragnarök DS
 * Really? Really! DS
 * Retro Game Challenge 2
-* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation marks are not bold.
+* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation is not bold.
 * Sands of Destruction
 * SD Gundam G Generation: Cross Drive
 * Shining Force Feather
@@ -384,12 +384,12 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Soma Bringer
 * Sora no Otoshimono Forte: Dreamy Season
 * Space Invaders Extreme – Used in descriptions of each option in the menu.
-* Space Invaders Extreme 2 – Used in descriptions of each option in the menu.
+* Space Invaders Extreme 2 – Used in descriptions of options in the menu.
 * Spice and Wolf: My One Year with Holo
 * Spice and Wolf: The Wind that Spans the Sea – The font in the game has a serif in the number one.
 * Steal Princess
 * Suikoden Tierkreis
-* Summon Night X: Tears Crown – Punctuation marks are not bold.
+* Summon Night X: Tears Crown – Punctuation is not bold.
 * Super Dodgeball Brawlers
 * SuperLite2500: Crimson Room
 * Super Princess Peach
@@ -408,14 +408,11 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Tokyo Beat Down
 * Trauma Center: Under the Knife series
 * Vampire Knight
-* WarioWare: D.I.Y. – This font is used in the Japanese version only. Not used in Switch titles from the franchise (Gold and Move It).
+* WarioWare: D.I.Y. – This font is used in the Japanese version only. Not used in the previous title (Touched!), the GBA titles (Mega Microgame$! and Twisted!), the GameCube title (Mega Party Game$!) and the Switch titles from the franchise (Gold and Move It).
 * Wizardry: Bokyaku no Isan
 * Wizardry: Seimei no Kusabi
 * Wizman World
+* Yasuo Uchida DS Mystery Detective Mitsuhiko Asami Series
 * Ys DS – The font is available in-game as NFTR in the font folder. The third Kanji set is omitted.
 * Yu-Gi-Oh! 5D's: Stardust Accelerator: World Championship 2009 – The font in the game has a slashed zero.
 * Yu-Gi-Oh! World Championship 2008 – The font in the game has a slashed zero.
-
-### Other Mobile
-* Devil May Cry: Dante × Virgil for SH
-* Monster Hunter i – The font in the game has a slashed zero.
