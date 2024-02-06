@@ -335,6 +335,7 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Medarot DS: Kabuto Version
 * Metal Max 2
 * Metal Max 3
+* Metal Saga: Season of Steel
 * Metal Slug 7 – The font is available in-game as **font_EU.NFTR** (European) and **font_JP.NFTR** (Japanese) in the fonts folder.
 * Metcha! Taiko no Tatsujin DS: 7-tsu no Shima no Daibōken
 * Miami Law
@@ -367,7 +368,7 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Pokémon Platinum – This font is used in beta release.
 * Populous DS
 * Poupee Girl DS
-* Professor Layton series – This font is used in the Japanese version only. Not used in 3DS titles in the franchise.
+* Professor Layton series – This font is used in the Japanese version only. Not used in 3DS, Android, iOS and Switch titles in the franchise.
 * QuickSpot – This font is used in the Japanese version only.
 * Ragnarök DS
 * Really? Really! DS
