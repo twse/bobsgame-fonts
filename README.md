@@ -21,8 +21,8 @@ See the [Fonts category in Bob's Game Wiki](https://bobsgame.fandom.com/wiki/Cat
 **Note:** This category has copyright notices and licenses for other fonts.
 
 ## NFTR version
-The NFTR based on Pixel Sans Textbook (see the index of fonts above) includes partial coverage of code page 1252 (the missing characters are the non-breaking space (used in French for some punctuation marks), florin and small tilde). Use [Tinke](https://github.com/pleonex/tinke) to replace the font file.
-1. Get a copy of the More English Training European game cartridge on sellers and dump the ROM file or download the ROM from ROM sites (e.g. ROM Hustler or Emuparadise) and open it. **NB!** ROM sites are not tolerated by GBAtemp.
+The NFTR based on Pixel Sans Textbook (see the font index above) includes partial coverage of code page 1252 (the missing characters are the non-breaking space (160/A0h), florin and small tilde). Use [Tinke](https://github.com/pleonex/tinke) to replace the font file.
+1. Get a copy of the More English Training European game cartridge on sellers and dump the ROM file or download the ROM from ROM sites (e.g. ROM Hustler, Emuparadise...) and open it. **NB!** ROM sites are not tolerated by GBAtemp, as well as links to pre-patched ROMs.
 2. Go to `common/fonts/data` and you'll see a file called **European_LC12.NFTR**.
 3. Press **Change file** to replace the file.
 4. Press **Save ROM** to save the ROM in a new name.
