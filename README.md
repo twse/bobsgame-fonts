@@ -21,7 +21,7 @@ https://bobsgame.fandom.com/wiki/Category:Fonts
 ## NFTR Installation Instructions
 The NFTR includes partial coverage of code page 1252 (the missing characters are the non-breaking space (160/A0h), florin (130/83h) and small tilde). Use [Tinke](https://github.com/pleonex/tinke) to replace the font file.
 1. Download the More English Training European ROM from ROM sites (e.g. ROM Hustler or Emuparadise) and open it.
-2. You see a file called **European_LC12.NFTR** in `common/fonts/data`.
+2. Go to `common/fonts/data` and you'll see a file called **European_LC12.NFTR**.
 3. Press **Change file** to replace the file.
 4. Press **Save ROM** to save the ROM in a new name.
 5. Test the font in the saved ROM using flash cards (e.g. TTDS) or in emulators (e.g. NO$GBA).
