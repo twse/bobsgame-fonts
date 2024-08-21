@@ -4,7 +4,7 @@
 * **BobsGame Mono** – Based on the “System VIO” font from OS/2 with revised glyphs and support for more glyphs. **P.S.** The game author uploaded it to the Bob Corporation website in December 2015 and moved it to a subfolder.
 * **BobsGame nD** – Based on the font in third/fourth generation Pokémon games with revised glyphs and support for more glyphs. The numbers were taken from *Castlevania: Aria of Sorrow*. Windows Vista and newer fakes the font preview as Japanese (21 Kanji letters are included in this font).
 * **Pixel Sans** – Based on the font used in many Nintendo 3DS, Game Boy Advance and Nintendo DS games. This font was created in 2015 under the name of **DS Sans**. Windows Vista and newer fakes the font preview as Chinese (the ideographs are included in Pixel Sans Fallback).
-* **Pixel Sans Fallback** – For use with Japanese and Korean. `fc-scan` does not show Japanese or Korean in the language fields despite these languages are supported.
+* **Pixel Sans Fallback** – For use with Japanese and Korean.
 * **Pixel Sans Terminal** – An alternate version with lowercase letters changed to match the font used in [UniPad](http://www.unipad.org/) (Sharmahd Computing, 1997-2006).
 * **Pixel Sans Textbook** – Based on the font used in Western versions of Pokémon Black & White with revised glyphs and support for more glyphs. This font has the same character set as the non-Fallback version of Pixel Sans.
 
