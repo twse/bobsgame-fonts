@@ -45,7 +45,7 @@ The current release includes support for the characters listed below.
 | 2440-245F | Optical Character Recognition           | (all)    |
 | 2460-24FF | Enclosed Alphanumerics                  | (all)    |
 | 2500-257F | Box Drawing                             | (all)    |
-| 2589-259F | Block Elements                          | (all)    |
+| 2590-259F | Block Elements                          | (all)    |
 | 25A0-25FF | Geometric Shapes                        | (all)    |
 | 2600-26FF | Miscellaneous Symbols                   | 255/256  |
 | 2700-27BF | Dingbats                                | (all)    |
@@ -88,7 +88,7 @@ This font has the same ranges with the addition of the following ranges:
 | FF00-FFEF | Halfwidth and Fullwidth Forms | 110/225  |
 
 ### PUA Characters
-The allocation of code points has been co-ordinated with characters in the [TITUS Cyberbit](http://titus.uni-frankfurt.de/), [Junicode](https://junicode.sourceforge.io/), [Alphabetum](http://guindo.pntic.mec.es/~jmag0042/alphaeng.html), Gāndhārī Unicode, Fixedsys Excelsior and [URW Palladio HOT](http://www.sanskritweb.net/fonts/index.html) fonts.
+The allocation of code points has been co-ordinated with characters in the [TITUS Cyberbit](http://titus.uni-frankfurt.de/), [Junicode](https://junicode.sourceforge.io/), Alphabetum, Gāndhārī Unicode, Fixedsys Excelsior and [URW Palladio HOT](http://www.sanskritweb.net/fonts/) fonts.
 * E004-E7FD – Latin letters (TITUS)
 * E801-E804 – Hebrew Microsoft PUA
 * E816-E817, E83B-E83C, E842-E843, E854-E855, E87B-E87C, E87E-E87F, E888, E88A, E892, E89C-E8A0, E8B2, F20E, F212, F77B-F77D – Gāndhārī Unicode
@@ -139,7 +139,7 @@ The current release includes support for the characters listed below.
 | 2440-245F | Optical Character Recognition      | (all)      |
 | 2460-24FF | Enclosed Alphanumerics             | (all)      |
 | 2500-257F | Box Drawing                        | (all)      |
-| 2589-259F | Block Elements                     | 1/32       |
+| 2590-259F | Block Elements                     | 1/32       |
 | 25A0-25FF | Geometric Shapes                   | 46/96      |
 | 2600-26FF | Miscellaneous Symbols              | 34/256     |
 | 2700-27BF | Dingbats                           | 12/192     |
@@ -171,12 +171,12 @@ The current release includes support for the characters listed below.
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
 * F638, F6DC – Adobe PUA
-* F82E – *Tri Force* sign used by *The Legend of Zelda* series
+* F82E – *Tri Force* sign
 * F884 – Pokémon currency, usually mapped to the dollar sign ($) in Pokémon games
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use the [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) as part of the PS3Xploit Tools or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is named `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) FileZilla in conjunction with Rebug Toolbox to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
 **P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed) and can be changed in **Settings: Theme Settings: Font** (the system software must not be Chinese or Korean). Using system software versions older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop) will disable all features or in non-hybrid firmwares will show a message.
 
@@ -373,7 +373,7 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Ragnarök DS
 * Really? Really! DS
 * Retro Game Challenge 2
-* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation is not bold.
+* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation is not bold. Not used in other games in the franchise (e.g. the Romancing SaGa games).
 * Sands of Destruction
 * SD Gundam G Generation: Cross Drive
 * Shining Force Feather
@@ -393,7 +393,7 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Summon Night X: Tears Crown – Punctuation is not bold.
 * Super Dodgeball Brawlers
 * SuperLite2500: Crimson Room
-* Super Princess Peach
+* Super Princess Peach – Not used in the Switch title (Princess Peach: Showtime).
 * Super Robot Taisen OG Saga: Mugen no Frontier EXCEED
 * Tactical Guild
 * Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
