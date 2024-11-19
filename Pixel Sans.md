@@ -84,6 +84,7 @@ The current release includes support for the characters listed below.
 ### Pixel Sans Textbook
 | Range     | Description                   | Coverage |
 |-----------|-------------------------------|----------|
+| 3000-3FFF | CJK Symbols and Punctuation   | 22/64    |
 | 3040-309F | Hiragana                      | 81/93    |
 | 30A0-30FF | Katakana                      | 82/96    |
 | FF00-FFEF | Halfwidth and Fullwidth Forms | 110/225  |
@@ -192,7 +193,7 @@ The current release includes support for the characters listed below.
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** or **Pixel Sans Terminal** or **Pixel Sans Textbook** is named `SCE-PS3-RD-R-LATIN.TTF` and `SCE-PS3-RD-R-LATIN2.TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) FileZilla in conjunction with Rebug Toolbox to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
 **P.S.** The console stores its fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the game console language must not be Chinese or Korean). Using the system software with a version older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop or WebPositive) will display a message and disable all features and using the tool under non-hybrid firmwares will show a message on loading.
 
@@ -374,7 +375,7 @@ Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_fon
 * Ragnarök DS
 * Really? Really! DS
 * Retro Game Challenge 2
-* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation marks are not bold.
+* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation is not bold. Not used in other games in the franchise (e.g. the Romancing SaGa games).
 * Sands of Destruction
 * SD Gundam G Generation: Cross Drive
 * Shining Force Feather
@@ -392,7 +393,7 @@ Use [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_fon
 * Summon Night X: Tears Crown – Punctuation marks are not bold.
 * Super Dodgeball Brawlers
 * SuperLite2500: Crimson Room
-* Super Princess Peach
+* Super Princess Peach – Not used in the Switch title (Princess Peach: Showtime).
 * Super Robot Taisen OG Saga: Mugen no Frontier EXCEED
 * Tactical Guild
 * Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
