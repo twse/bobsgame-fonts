@@ -81,6 +81,7 @@ The current release includes support for the characters listed below.
 ### Pixel Sans Textbook
 | Range     | Description                   | Coverage |
 |-----------|-------------------------------|----------|
+| 3000-3FFF | CJK Symbols and Punctuation   | 22/64    |
 | 3040-309F | Hiragana                      | 81/93    |
 | 30A0-30FF | Katakana                      | 82/96    |
 | FF00-FFEF | Halfwidth and Fullwidth Forms | 110/225  |
@@ -184,7 +185,7 @@ The current release includes support for the characters listed below.
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.me/hfw/flash_font_replacer/flash_font_replacer.html) or FileZilla in conjunction with Rebug Toolbox. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) FileZilla in conjunction with Rebug Toolbox to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
 **P.S.** The console stores the fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed) and can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using in version ≤ 4.81 and non-hybrid firmwares or non-PlayStation 3 browsers (e.g. Firefox Desktop) will disable all features.
 
@@ -366,7 +367,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Ragnarök DS
 * Really? Really! DS
 * Retro Game Challenge 2
-* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation marks are not bold.
+* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation is not bold. Not used in other games in the franchise (e.g. the Romancing SaGa games).
 * Sands of Destruction
 * SD Gundam G Generation: Cross Drive
 * Shining Force Feather
@@ -384,7 +385,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Summon Night X: Tears Crown – Punctuation marks are not bold.
 * Super Dodgeball Brawlers
 * SuperLite2500: Crimson Room
-* Super Princess Peach
+* Super Princess Peach – Not used in the Switch title (Princess Peach: Showtime).
 * Super Robot Taisen OG Saga: Mugen no Frontier EXCEED
 * Tactical Guild
 * Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
