@@ -45,7 +45,7 @@ The current release includes support for the characters listed below.
 | 2440-245F | Optical Character Recognition           | (all)    |
 | 2460-24FF | Enclosed Alphanumerics                  | (all)    |
 | 2500-257F | Box Drawing                             | (all)    |
-| 2589-259F | Block Elements                          | (all)    |
+| 2590-259F | Block Elements                          | (all)    |
 | 25A0-25FF | Geometric Shapes                        | (all)    |
 | 2600-26FF | Miscellaneous Symbols                   | (all)    |
 | 2700-27BF | Dingbats                                | (all)    |
@@ -78,10 +78,15 @@ The current release includes support for the characters listed below.
 | FFF0-FFFF | Specials                                | 1/5      |
 
 ### Pixel Sans Textbook
-The textbook font uses the same ranges but Hiragana is extended to 81 characters, Katakana is extended to 82 characters and Halfwidth and Fullwidth Forms is extended to 110 characters.
+| Range     | Description                   | Coverage |
+|-----------|-------------------------------|----------|
+| 3000-3FFF | CJK Symbols and Punctuation   | 22/64    |
+| 3040-309F | Hiragana                      | 81/93    |
+| 30A0-30FF | Katakana                      | 82/96    |
+| FF00-FFEF | Halfwidth and Fullwidth Forms | 110/225  |
 
-### PUA Characters - Version 9.0
-The current release includes the PUA characters listed below. The allocation of code points has been co-ordinated with characters in the [TITUS Cyberbit](http://titus.uni-frankfurt.de/), Junicode, Alphabetum, Gāndhārī Unicode, Fixedsys Excelsior and [URW Palladio HOT](http://www.sanskritweb.net/fonts/) fonts.
+### PUA Characters
+The allocation of code points has been co-ordinated with characters in the [TITUS Cyberbit](http://titus.uni-frankfurt.de/), Junicode, Alphabetum, Gāndhārī Unicode, Fixedsys Excelsior, [URW Palladio HOT](http://www.sanskritweb.net/fonts/) and Languagegeek fonts.
 * E004-E7FD – Latin letters (TITUS)
 * E801-E804 – Hebrew Microsoft PUA
 * E816-E817, E83B-E83C, E842-E855, E87B-E87C, E87E-E87F, E888, E88A, E892, E89C-E8A0, E8B2, F20E, F212, F77B-F77D – Gāndhārī Unicode
@@ -130,7 +135,7 @@ The current release includes support for the characters listed below.
 | 2440-245F | Optical Character Recognition      | (all)      |
 | 2460-24FF | Enclosed Alphanumerics             | (all)      |
 | 2500-257F | Box Drawing                        | (all)      |
-| 2589-259F | Block Elements                     | 1/32       |
+| 2590-259F | Block Elements                     | 1/32       |
 | 25A0-25FF | Geometric Shapes                   | 46/96      |
 | 2600-26FF | Miscellaneous Symbols              | 34/256     |
 | 2700-27BF | Dingbats                           | 12/192     |
@@ -169,7 +174,7 @@ The current release includes support for the characters listed below.
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use [Flash Font Replacer](http://ps3xploit.me/hfw/flash_font_replacer/flash_font_replacer.html) or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** or **Pixel Sans Terminal** or **Pixel Sans Textbook** is named `SCE-PS3-RD-R-LATIN.TTF` and `SCE-PS3-RD-R-LATIN2.TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use PS3Xploit's Flash Font Replacer or Rebug Toolbox with FileZilla to change the font. **Pixel Sans** (or Terminal/Textbook) is named `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is named `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
 **P.S.** The console stores its fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the system software language must not be Chinese or Korean). Using the system software in version ≤ 4.81, non-hybrid firmwares or non-PlayStation 3 browsers (e.g. Firefox Desktop or WebPositive) will disable all features.
 
@@ -196,7 +201,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Bakuten Shoot Beyblade - Gekitou! Saikyou Blader
 * Black Matrix Zero
 * Captain Tsubasa: Eikō no Kiseki
-* Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Windows Latin-1), but omitting many non-essential Windows characters.
+* Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Windows Latin-1), but many non-essential characters are omitted.
 * Castlevania: Harmony of Dissonance
 * Chu Chu Rocket! – This font is used in the game dialogue.
 * Daisenryaku
@@ -351,7 +356,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Ragnarök DS
 * Really? Really! DS
 * Retro Game Challenge 2
-* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation marks are not bold.
+* SaGa 2 Hihou Densetsu: Goddess of Destiny – Punctuation is not bold. Not used in other games in the franchise (e.g. the Romancing SaGa games).
 * Sands of Destruction
 * SD Gundam G Generation: Cross Drive
 * Shining Force Feather
@@ -369,7 +374,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Summon Night X: Tears Crown – Punctuation marks are not bold.
 * Super Dodgeball Brawlers
 * SuperLite2500: Crimson Room
-* Super Princess Peach
+* Super Princess Peach – Not used in the Switch title (Princess Peach: Showtime).
 * Super Robot Taisen OG Saga: Mugen no Frontier EXCEED
 * Tactical Guild
 * Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
