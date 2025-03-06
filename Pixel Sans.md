@@ -3,7 +3,7 @@
 ### Installation
 https://bobsgame.fandom.com/wiki/Category:Fonts
 
-### Supported Characters
+### Supported Characters - Basic Multilingual Plane
 The current release includes support for the characters listed below.
 
 | Range     | Description                             | Coverage |
@@ -82,7 +82,6 @@ This font has the same ranges with the addition of the following ranges:
 
 | Range     | Description                   | Coverage |
 |-----------|-------------------------------|----------|
-| 3000-3FFF | CJK Symbols and Punctuation   | 22/64    |
 | 3040-309F | Hiragana                      | 81/93    |
 | 30A0-30FF | Katakana                      | 82/96    |
 | FF00-FFEF | Halfwidth and Fullwidth Forms | 110/225  |
@@ -165,8 +164,15 @@ The current release includes support for the characters listed below.
 | FF00-FFEF | Halfwidth and Fullwidth Forms      | (all)      |
 | FFF0-FFFF | Specials                           | 1/5        |
 
+### Supported Characters - Supplementary Multilingual Plane
+The current release includes support for the characters listed below.
+
+| Range       | Description                      | Coverage |
+|-------------|----------------------------------|----------|
+| 1F100-1F1FF | Enclosed Alphanumeric Supplement | 67/200   |
+
 ### PUA Characters
-* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The font ["Silver.ttf"](https://poppyworks.itch.io/silver) by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
+* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
 * E06C – Sims currency symbol
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
