@@ -66,6 +66,13 @@ The current release includes support for the characters listed below.
 | FF00-FFEF | Halfwidth and Fullwidth Forms          | 111/225  |
 | FFF0-FFFF | Specials                               | 1/5      |
 
+### Supported Characters - Supplementary Multilingual Plane
+The current release includes support for the characters listed below.
+
+| Range       | Description                      | Coverage |
+|-------------|----------------------------------|----------|
+| 1F100-1F1FF | Enclosed Alphanumeric Supplement | 1/200    |
+
 ### PUA Characters
 The current release includes the PUA characters listed below. The allocation of code points has been co-ordinated with characters in the [TITUS Cyberbit](http://titus.uni-frankfurt.de/), [Junicode](https://junicode.sourceforge.io/), Alphabetum, Gāndhārī Unicode, Fixedsys Excelsior and [URW Palladio HOT](http://www.sanskritweb.net/fonts/) fonts.
 * E004-E7FD – Latin letters (TITUS)
