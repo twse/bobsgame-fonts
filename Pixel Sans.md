@@ -47,7 +47,7 @@ The current release includes support for the characters listed below.
 | 2500-257F | Box Drawing                             | (all)    |
 | 2590-259F | Block Elements                          | (all)    |
 | 25A0-25FF | Geometric Shapes                        | (all)    |
-| 2600-26FF | Miscellaneous Symbols                   | 255/256  |
+| 2600-26FF | Miscellaneous Symbols                   | (all)    |
 | 2700-27BF | Dingbats                                | (all)    |
 | 27C0-27EF | Miscellaneous Mathematical Symbols-A    | (all)    |
 | 27F0-27FF | Supplemental Arrows-A                   | (all)    |
@@ -74,6 +74,7 @@ The current release includes support for the characters listed below.
 | AB70-ABBF | Cherokee Supplement                     | (all)    |
 | FB00-FB4F | Alphabetic Presentation Forms           | (all)    |
 | FE20-FE2F | Combining Half Marks                    | (all)    |
+| FE70-FEFF | Arabic Presentation Forms-B             | 1/141    |
 | FF00-FFEF | Halfwidth and Fullwidth Forms           | 2/225    |
 | FFF0-FFFF | Specials                                | 1/5      |
 
@@ -96,7 +97,6 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * EE01-EEAD – Cyrillic letters (TITUS)
 * F11E-F11F, F12A-F12B, F150-F151, F160-F163 – ISO 15919 diacritics from URW Palladio HOT
 * F4D0-F4D9 – Lowercase descending numerals
-* F4E3 – Copyleft
 * F4E9 – Capital J without serif (Textbook only), used in beta releases of *Pokémon Diamond & Pearl* to *Pokémon Black & White 2*
 * F5CC – Oblique Hyphen
 * F638 – Slashed zero (Fixedsys Excelsior)
@@ -107,7 +107,7 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F7E4 – Alternative Cyrillic “be” for Serbian and Macedonian
 * F800-F807 – Diacritics used for ALA-LC transliteration and native languages in Colombia
 * F814-F82D – Diacritics for African languages
-* F830-F835 – Latin letters (Quivira)
+* F830-F835 – Dotless Latin letters (Quivira)
 * F870-F888 – Symbols used by the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The .RTFN font files in the game (encoded in Unicode) redefines the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
 * F8FF – Apple logo
 
@@ -170,6 +170,7 @@ The current release includes support for the characters listed below.
 | Range       | Description                      | Coverage |
 |-------------|----------------------------------|----------|
 | 1F100-1F1FF | Enclosed Alphanumeric Supplement | 67/200   |
+| 1F800-1F8FF | Supplemental Arrows-B            | 4/162    |
 
 ### PUA Characters
 * E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
