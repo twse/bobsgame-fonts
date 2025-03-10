@@ -56,7 +56,7 @@ The current release includes support for the characters listed below.
 | 2C80-2CFF | Coptic                                  | 36/123   |
 | 2D00-2D2F | Georgian Supplement                     | (all)    |
 | 2E00-2E7F | Supplemental Punctuation                | (all)    |
-| 3000-3FFF | CJK Symbols and Punctuation             | 7/64     |
+| 3000-303F | CJK Symbols and Punctuation             | 15/64    |
 | A4D0-A4FF | Lisu                                    | (all)    |
 | A640-A69F | Cyrillic Extended-B                     | 80/96    |
 | A700-A71F | Modifier Tone Letters                   | (all)    |
@@ -71,6 +71,7 @@ The current release includes support for the characters listed below.
 
 | Range       | Description                      | Coverage |
 |-------------|----------------------------------|----------|
+| 11FB0-11FBF | Lisu Supplement                  | (all)    |
 | 1F100-1F1FF | Enclosed Alphanumeric Supplement | 1/200    |
 
 ### PUA Characters
