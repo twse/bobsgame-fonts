@@ -49,8 +49,8 @@ The current release includes support for the characters listed below.
 | 27F0-27FF | Supplemental Arrows-A                   | 5/16     |
 | 2900-297F | Supplemental Arrows-B                   | 36/128   |
 | 2980-29FF | Miscellaneous Mathematical Symbols-B    | 47/128   |
-| 2A00-2AFF | Supplemental Mathematical Operators     | 18/256   |
-| 2B00-2BFF | Miscellaneous Symbols and Arrows        | 32/252   |
+| 2A00-2AFF | Supplemental Mathematical Operators     | 29/256   |
+| 2B00-2BFF | Miscellaneous Symbols and Arrows        | 47/253   |
 | 2C60-2C6F | Latin Extended-C                        | (all)    |
 | 2DE0-2DFF | Cyrillic Extended-A                     | (all)    |
 | 2E00-2E7F | Supplemental Punctuation                | (all)    |
@@ -76,6 +76,7 @@ The current release includes support for the characters listed below.
 | Range       | Description                      | Coverage |
 |-------------|----------------------------------|----------|
 | 11FB0-11FBF | Lisu Supplement                  | (all)    |
+| 1DF00-1DFFF | Latin Extended-G                 | (all)    |
 | 1F100-1F1FF | Enclosed Alphanumeric Supplement | 1/200    |
 
 ### PUA Characters
