@@ -71,6 +71,7 @@ The current release includes support for the characters listed below.
 
 | Range       | Description                      | Coverage |
 |-------------|----------------------------------|----------|
+| 11FB0-11FBF | Lisu Supplement                  | (all)    |
 | 1F100-1F1FF | Enclosed Alphanumeric Supplement | 1/200    |
 
 ### PUA Characters
