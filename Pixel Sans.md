@@ -165,6 +165,7 @@ The current release includes support for the characters listed below.
 | Range       | Description                      | Coverage |
 |-------------|----------------------------------|----------|
 | 1F100-1F1FF | Enclosed Alphanumeric Supplement | 67/200   |
+| 1F800-1F8FF | Supplemental Arrows-B            | 4/162    |
 
 ### PUA Characters
 * E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
