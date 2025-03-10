@@ -3,7 +3,6 @@
 ### Installation
 https://bobsgame.fandom.com/wiki/Category:Fonts
 
-
 ### Supported Characters - Basic Multilingual Plane
 The current release includes support for the characters listed below.
 
@@ -76,9 +75,9 @@ The current release includes support for the characters listed below.
 | AB70-ABBF | Cherokee Supplement                     | (all)    |
 | FB00-FB4F | Alphabetic Presentation Forms           | (all)    |
 | FE20-FE2F | Combining Half Marks                    | (all)    |
-| FF00-FFEF | Halfwidth and Fullwidth Forms           | 2/222    |
+| FE70-FEFF | Arabic Presentation Forms-B             | 1/141    |
+| FF00-FFEF | Halfwidth and Fullwidth Forms           | 2/225    |
 | FFF0-FFFF | Specials                                | 1/5      |
-
 
 ### Pixel Sans Textbook
 | Range     | Description                   | Coverage |
@@ -108,7 +107,7 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F800-F807 – Diacritics used in the ALA-LC transliteration scheme and Colombian native languages
 * F814-F82D – Diacritics for African languages
 * F830-F835 – Dotless Latin letters
-* F870-F888 – Symbols in Pokémon Black & White (Textbook only). The font in the game used the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
+* F870-F888 – Symbols used by the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The .RTFN font files in the game (encoded in Unicode) redefines the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
 * F8FF – Apple logo
 
 ### Supported Characters - Fallback Version 5.0
@@ -170,6 +169,7 @@ The current release includes support for the characters listed below.
 | Range       | Description                      | Coverage |
 |-------------|----------------------------------|----------|
 | 1F100-1F1FF | Enclosed Alphanumeric Supplement | 67/200   |
+| 1F800-1F8FF | Supplemental Arrows-C            | 4/162    |
 
 ### PUA Characters* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
 * E06C – Sims currency symbol
@@ -194,7 +194,6 @@ Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replac
 2. Go to `PM_SystemFonts`.
 3. Add the `PM_AssociateFont` key and enter `Pixel Sans Fallback,12` as the data
 4. Restart the computer for the changes to take effect.
-
 
 ### Setting Pixel Sans Fallback as default for Japanese and Korean in web browsers
 1. Clone the repository or download the zipped archive or the font separately.
