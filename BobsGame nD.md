@@ -6,65 +6,69 @@ https://bobsgame.fandom.com/wiki/Category:Fonts
 ### Supported Characters
 The current release includes support for the characters listed below.
 
-| Range     | Description                            | Coverage |
-|-----------|----------------------------------------|----------|
-| 0000-007F | Basic Latin                            | (all)    |
-| 0080-00FF | Latin-1 Supplement                     | (all)    |
-| 0100-017F | Latin Extended-A                       | (all)    |
-| 0180-024F | Latin Extended-B                       | (all)    |
-| 0250-02AF | IPA Extensions                         | (all)    |
-| 02B0-02FF | Spacing Modifier Letters               | (all)    |
-| 0300-036F | Combining Diacritical Marks            | (all)    |
-| 0370-03FF | Greek and Coptic                       | (all)    |
-| 0400-04FF | Cyrillic                               | (all)    |
-| 0500-052F | Cyrillic Supplement                    | (all)    |
-| 0530-058F | Armenian                               | (all)    |
-| 0E00-0E7F | Thai                                   | 1/87     |
-| 10A0-10FF | Georgian                               | 1/88     |
-| 16A0-16FF | Runic                                  | 2/89     |
-| 1AB0-1AFF | Combining Diacritical Marks Extended   | (all)    |
-| 1C80-1C8F | Cyrililc Extended-C                    | (all)    |
-| 1D00-1D7F | Phonetic Extensions                    | (all)    |
-| 1D80-1DBF | Phonetic Extensions Supplement         | (all)    |
-| 1DC0-1DFF | Combining Diacritical Marks Supplement | (all)    |
-| 1E00-1EFF | Latin Extended Additional              | (all)    |
-| 1F00-1FFF | Greek Extended                         | (all)    |
-| 2000-206F | General Punctuation                    | 94/111   |
-| 2070-209F | Superscripts and Subscripts            | (all)    |
-| 20A0-20CF | Currency Symbols                       | (all)    |
-| 2100-214F | Letterlike Symbols                     | 62/80    |
-| 2150-218F | Number Forms                           | (all)    |
-| 2190-21FF | Arrows                                 | 39/112   |
-| 2200-22FF | Mathematical Operators                 | 158/256  |
-| 2300-23FF | Miscellaneous Technical                | 75/256   |
-| 2400-243F | Control Pictures                       | 26/39    |
-| 2400-245F | Optical Character Recognition          | (all)    |
-| 2500-257F | Box Drawing                            | 39/128   |
-| 25A0-25FF | Geometric Shapes                       | 22/96    |
-| 2600-26FF | Miscellaneous Symbols                  | 76/256   |
-| 2700-27BF | Dingbats                               | 34/192   |
-| 27C0-27EF | Miscellaneous Mathematical Symbols-A   | 6/48     |
-| 2900-297F | Supplemental Arrows-B                  | 8/128    |
-| 2980-29FF | Miscellaneous Mathematical Symbols-B   | 11/128   |
-| 2A00-2AFF | Supplemental Mathematical Operators    | 15/256   |
-| 2B00-2BFF | Miscellaneous Symbols and Arrows       | 8/252    |
-| 2C60-2C6F | Latin Extended-C                       | (all)    |
-| 2E00-2E7F | Supplemental Punctuation               | (all)    |
-| 3000-3FFF | CJK Symbols and Punctuation            | 27/64    |
-| 3040-309F | Hiragana                               | 92/93    |
-| 30A0-30FF | Katakana                               | (all)    |
-| 4DC0-4DFF | Yijing Hexagram Symbols                | (all)    |
-| 4E00-9FEF | CJK Unified Ideographs                 | 11/20976 |
-| A4D0-A4FF | Lisu                                   | (all)    |
-| A640-A69F | Cyrillic Extended-B                    | (all)    |
-| A700-A71F | Modifier Tone Letters                  | (all)    |
-| A720-A7FF | Latin Extended-D                       | (all)    |
-| A830-A83F | Common Indic Number Forms              | (all)    |
-| AB30-AB6F | Latin Extended-E                       | (all)    |
-| FB00-FB4F | Alphabetic Presentation Forms          | 12/58    |
-| FE20-FE2F | Combining Half Marks                   | 2/16     |
-| FF00-FFEF | Halfwidth and Fullwidth Forms          | 111/225  |
-| FFF0-FFFF | Specials                               | 1/5      |
+| Range     | Description                             | Coverage |
+|-----------|-----------------------------------------|----------|
+| 0000-007F | Basic Latin                             | (all)    |
+| 0080-00FF | Latin-1 Supplement                      | (all)    |
+| 0100-017F | Latin Extended-A                        | (all)    |
+| 0180-024F | Latin Extended-B                        | (all)    |
+| 0250-02AF | IPA Extensions                          | (all)    |
+| 02B0-02FF | Spacing Modifier Letters                | (all)    |
+| 0300-036F | Combining Diacritical Marks             | (all)    |
+| 0370-03FF | Greek and Coptic                        | (all)    |
+| 0400-04FF | Cyrillic                                | (all)    |
+| 0500-052F | Cyrillic Supplement                     | (all)    |
+| 0530-058F | Armenian                                | (all)    |
+| 0590-059F | Hebrew                                  | (all)    |
+| 0E00-0E7F | Thai                                    | (all)    |
+| 10A0-10FF | Georgian                                | 1/88     |
+| 16A0-16FF | Runic                                   | 2/89     |
+| 1AB0-1AFF | Combining Diacritical Marks Extended    | (all)    |
+| 1C80-1C8F | Cyrillic Extended-C                     | (all)    |
+| 1D00-1D7F | Phonetic Extensions                     | (all)    |
+| 1D80-1DBF | Phonetic Extensions Supplement          | (all)    |
+| 1DC0-1DFF | Combining Diacritical Marks Supplement  | (all)    |
+| 1E00-1EFF | Latin Extended Additional               | (all)    |
+| 1F00-1FFF | Greek Extended                          | (all)    |
+| 2000-206F | General Punctuation                     | (all)    |
+| 2070-209F | Superscripts and Subscripts             | (all)    |
+| 20A0-20CF | Currency Symbols                        | (all)    |
+| 20D0-20EF | Combining Diacritical Marks for Symbols | (all)    |
+| 2100-214F | Letterlike Symbols                      | 66/80    |
+| 2150-218F | Number Forms                            | (all)    |
+| 2190-21FF | Arrows                                  | 42/112   |
+| 2200-22FF | Mathematical Operators                  | 180/256  |
+| 2300-23FF | Miscellaneous Technical                 | 82/256   |
+| 2400-243F | Control Pictures                        | 28/39    |
+| 2440-245F | Optical Character Recognition           | (all)    |
+| 2500-257F | Box Drawing                             | 39/128   |
+| 25A0-25FF | Geometric Shapes                        | 66/96    |
+| 2600-26FF | Miscellaneous Symbols                   | 90/256   |
+| 2700-27BF | Dingbats                                | 40/192   |
+| 27C0-27EF | Miscellaneous Mathematical Symbols-A    | 10/48    |
+| 27F0-27FF | Supplemental Arrows-A                   | 5/16     |
+| 2900-297F | Supplemental Arrows-B                   | 36/128   |
+| 2980-29FF | Miscellaneous Mathematical Symbols-B    | 47/128   |
+| 2A00-2AFF | Supplemental Mathematical Operators     | 29/256   |
+| 2B00-2BFF | Miscellaneous Symbols and Arrows        | 47/253   |
+| 2C60-2C6F | Latin Extended-C                        | (all)    |
+| 2DE0-2DFF | Cyrillic Extended-A                     | (all)    |
+| 2E00-2E7F | Supplemental Punctuation                | (all)    |
+| 3000-303F | CJK Symbols and Punctuation             | 43/64    |
+| 3040-309F | Hiragana                                | (all)    |
+| 30A0-30FF | Katakana                                | (all)    |
+| 4DC0-4DFF | Yijing Hexagram Symbols                 | (all)    |
+| 4E00-9FEF | CJK Unified Ideographs                  | 25/20989 |
+| A4D0-A4FF | Lisu                                    | (all)    |
+| A640-A69F | Cyrillic Extended-B                     | (all)    |
+| A700-A71F | Modifier Tone Letters                   | (all)    |
+| A720-A7FF | Latin Extended-D                        | (all)    |
+| AB30-AB6F | Latin Extended-E                        | (all)    |
+| FB00-FB4F | Alphabetic Presentation Forms           | (all)    |
+| FE20-FE2F | Combining Half Marks                    | (all)    |
+| FE70-FEFF | Arabic Presentation Forms-B             | 1/141    |
+| FF00-FFEF | Halfwidth and Fullwidth Forms           | 116/225  |
+| FFF0-FFFF | Specials                                | 1/5      |
 
 ### Supported Characters - Supplementary Multilingual Plane
 The current release includes support for the characters listed below.
@@ -72,6 +76,7 @@ The current release includes support for the characters listed below.
 | Range       | Description                      | Coverage |
 |-------------|----------------------------------|----------|
 | 11FB0-11FBF | Lisu Supplement                  | (all)    |
+| 1DF00-1DFFF | Latin Extended-G                 | (all)    |
 | 1F100-1F1FF | Enclosed Alphanumeric Supplement | 1/200    |
 
 ### PUA Characters
