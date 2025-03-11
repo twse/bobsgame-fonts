@@ -169,6 +169,7 @@ The current release includes support for the characters listed below.
 | Range       | Description                      | Coverage |
 |-------------|----------------------------------|----------|
 | 11FB0-11FBF | Lisu Supplement                  | (all)    |
+| 1DF00-1DFFF | Latin Extended-G                 | (all)    |
 | 1F100-1F1FF | Enclosed Alphanumeric Supplement | 67/200   |
 | 1F800-1F8FF | Supplemental Arrows-C            | 4/162    |
 
