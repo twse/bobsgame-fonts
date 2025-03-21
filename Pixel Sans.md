@@ -185,7 +185,7 @@ The current release includes support for the characters listed below.
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) FileZilla in conjunction with Rebug Toolbox to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or FileZilla in conjunction with Rebug Toolbox to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
 **P.S.** The fonts are stored in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed) and can be changed in **Settings: Theme Settings: Font** (the system software must not be Chinese or Korean). Using system software versions older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop) will disable all features or in non-hybrid firmwares will show a message.
 
@@ -352,10 +352,10 @@ Use Registry Editor (with Windows 10 and 11 as a shortcut under **Windows Admini
 * Mobile Suit Gundam 00 – Not used in other games in the franchise (e.g. SD Gundam Battle Alliance).
 * More English Training – The font is available in-game as **European_LC12.NFTR** (European) and **LC12.NFTR** (Japanese) in ``common/fonts/data``. ``LC12.NFTR`` in the Japanese version of the game is encoded according to Shift-JIS, but many Kanji syllables and non-essential Shift-JIS characters are omitted. ``European_LC12.NFTR`` in the European version of the game is encoded according to Unicode/code page 1252 (Windows Latin-1).
 * Mumin no Okurimono
-* MySims – Not used in the PC and Wii versions.
+* MySims – Not used in the PC and Wii versions and the Cozy Bundle.
 * MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder. Not used in the Wii version.
 * MySims Camera (DSiWare)
-* MySims Kingdom – Not used in the Wii version.
+* MySims Kingdom – Not used in the Wii version and the Cozy Bundle.
 * MySims Party – Not used in the Wii version.
 * Namco Museum DS
 * Nana: Live Staff Daiboshū! Shoshinsha Kangei
