@@ -166,12 +166,14 @@ The current release includes support for the characters listed below.
 ### Supported Characters - Supplementary Multilingual Plane
 The current release includes support for the characters listed below.
 
-| Range       | Description                      | Coverage |
-|-------------|----------------------------------|----------|
-| 11FB0-11FBF | Lisu Supplement                  | (all)    |
-| 1DF00-1DFFF | Latin Extended-G                 | (all)    |
-| 1F100-1F1FF | Enclosed Alphanumeric Supplement | 67/200   |
-| 1F800-1F8FF | Supplemental Arrows-C            | 4/162    |
+| Range       | Description                       | Coverage |
+|-------------|-----------------------------------|----------|
+| 11FB0-11FBF | Lisu Supplement                   | (all)    |
+| 1D400-1D7FF | Mathematical Alphanumeric Symbols | 62/996   |
+| 1DF00-1DFFF | Latin Extended-G                  | (all)    |
+| 1F100-1F1FF | Enclosed Alphanumeric Supplement  | 67/200   |
+| 1F650-1F67F | Ornamental Dingbats               | 2/48     |
+| 1F800-1F8FF | Supplemental Arrows-C             | 4/162    |
 
 ### PUA Characters* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
 * E06C – Sims currency symbol
