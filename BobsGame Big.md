@@ -18,42 +18,70 @@ The current release includes support for the characters listed below.
 | 0370-03FF | Greek and Coptic                       | (all)    |
 | 0400-04FF | Cyrillic                               | (all)    |
 | 0500-052F | Cyrillic Supplement                    | (all)    |
-| 0530-058F | Armenian                               | 8/89     |
-| 0590-05FF | Hebrew                                 | 44/87    |
+| 0530-058F | Armenian                               | 8/94     |
+| 0590-05FF | Hebrew                                 | 60/88    |
+| 0870-089F | Arabic Extended-B                      | 2/43     |
 | 0E00-0E7F | Thai                                   | 2/87     |
-| 1D00-1D7F | Phonetic Extensions                    | 66/128   |
-| 1D80-1DBF | Phonetic Extensions Supplement         | 28/64    |
-| 1DC0-1DFF | Combining Diacritical Marks Supplement | 10/59    |
+| 1AB0-1AFF | Combining Diacritical Marks Extended   | 47/65    |
+| 1C80-1C8F | Cyrillic Extended-C                    | 7/12     |
+| 1D00-1D7F | Phonetic Extensions                    | 110/128  |
+| 1D80-1DBF | Phonetic Extensions Supplement         | 36/64    |
+| 1DC0-1DFF | Combining Diacritical Marks Supplement | 31/64    |
 | 1E00-1EFF | Latin Extended Additional              | (all)    |
 | 1F00-1FFF | Greek Extended                         | (all)    |
-| 2000-206F | General Punctuation                    | 74/111   |
+| 2000-206F | General Punctuation                    | 104/111  |
 | 2070-209F | Superscripts and Subscripts            | (all)    |
-| 20A0-20CF | Currency Symbols                       | 26/31    |
-| 2100-214F | Letterlike Symbols                     | 30/80    |
-| 2150-218F | Number Forms                           | 18/60    |
-| 2190-21FF | Arrows                                 | 13/112   |
-| 2200-22FF | Mathematical Operators                 | 86/256   |
-| 2300-23FF | Miscellaneous Technical                | 42/255   |
-| 2400-243F | Control Pictures                       | 20/39    |
+| 20A0-20CF | Currency Symbols                       | (all)    |
+| 2100-214F | Letterlike Symbols                     | 51/80    |
+| 2150-218F | Number Forms                           | 23/60    |
+| 2190-21FF | Arrows                                 | 17/112   |
+| 2200-22FF | Mathematical Operators                 | 113/256  |
+| 2300-23FF | Miscellaneous Technical                | 77/256   |
+| 2400-243F | Control Pictures                       | 25/42    |
 | 2500-257F | Box Drawing                            | 17/128   |
-| 25A0-25FF | Geometric Shapes                       | 13/96    |
-| 2600-26FF | Miscellaneous Symbols                  | 62/256   |
-| 2700-27BF | Dingbats                               | 25/192   |
-| 27C0-27EF | Miscellaneous Mathematical Symbols-A   | 10/48    |
-| 2980-29FF | Miscellaneous Mathematical Symbols-B   | 32/128   |
-| 2A00-2AFF | Supplemental Mathematical Operators    | 33/256   |
-| 2B00-2BFF | Miscellaneous Symbols and Arrows       | 6/206    |
+| 25A0-25FF | Geometric Shapes                       | 52/96    |
+| 2600-26FF | Miscellaneous Symbols                  | 104/256  |
+| 2700-27BF | Dingbats                               | 44/192   |
+| 27C0-27EF | Miscellaneous Mathematical Symbols-A   | 14/48    |
+| 2900-297F | Supplemental Arrows-B                  | 14/128   |
+| 2980-29FF | Miscellaneous Mathematical Symbols-B   | 45/128   |
+| 2A00-2AFF | Supplemental Mathematical Operators    | 46/256   |
+| 2B00-2BFF | Miscellaneous Symbols and Arrows       | 28/254   |
 | 2C60-2C7F | Latin Extended-C                       | (all)    |
-| 2E00-2E5F | Supplemental Punctuation               | 24/69    |
-| 3000-303F | CJK Symbols and Punctuation            | 3/64     |
+| 2DE0-2DFF | Cyrillic Extended-A                    | 9/32     |
+| 2E00-2E5F | Supplemental Punctuation               | 77/98    |
+| 3000-303F | CJK Symbols and Punctuation            | 4/64     |
 | A4D0-A4FF | Lisu                                   | (all)    |
-| A640-A69F | Cyrillic Extended-A                    | 30/96    |
+| A640-A69F | Cyrillic Extended-B                    | 69/96    |
 | A700-A71F | Modifier Tone Letters                  | (all)    |
-| A720-A7FF | Latin Extended-D                       | 97/160   |
-| A830-A83F | Common Indic Number Forms              | (all)    |
-| AB30-AB6F | Latin Extended-E                       | 25/54    |
-| FB00-FB4F | Alphabetic Presentation Forms          | 5/58     |
+| A720-A7FF | Latin Extended-D                       | 189/206  |
+| AB30-AB6F | Latin Extended-E                       | 57/62    |
+| FB00-FB4F | Alphabetic Presentation Forms          | 7/58     |
+| FB50-FDFF | Arabic Presentation Forms-A            | 1/656    |
+| FE20-FE2F | Combining Half Marks                   | 2/16     |
 | FFF0-FFFF | Specials                               | 1/5      |
+
+### Supported Characters - Supplementary Multilingual Plane
+The current release includes support for the characters listed below.
+
+| Range       | Description                             | Coverage |
+|-------------|-----------------------------------------|----------|
+| 10190-101CF | Ancient Symbols                         | 12/14    |
+| 10780-107BF | Latin Extended-F                        | 3/62     |
+| 11FB0-11FBF | Lisu Supplement                         | (all)    |
+| 1CC00-1CEBF | Symbols for Legacy Computing Supplement | 22/695   |
+| 1D400-1D7FF | Mathematical Alphanumeric Symbols       | 85/996   |
+| 1DF00-1DFFF | Latin Extended-G                        | 88/184   |
+| 1F100-1F1FF | Enclosed Alphanumeric Supplement        | 4/200    |
+| 1F300-1F5FF | Miscellaneous Symbols and Pictographs   | 64/768   |
+| 1F600-1F64F | Emoticons                               | 3/80     |
+| 1F650-1F67F | Ornamental Dingbats                     | 7/48     |
+| 1F680-1F6FF | Transport and Map Symbols               | 6/119    |
+| 1F780-1F7FF | Geometric Shapes Extended               | 9/103    |
+| 1F800-1F8FF | Supplemental Arrows-C                   | 36/171   |
+| 1F900-1F9FF | Supplemental Symbols and Pictographs    | 7/256    |
+| 1FA70-1FAFF | Symbols and Pictographs Extended-A      | 5/121    |
+| 1FB00-1FBFF | Symbols for Legacy Computing            | 42/250   |
 
 ### PUA Characters
 The current release includes the PUA characters listed below. The allocation of code points has been co-ordinated with characters in the [TITUS Cyberbit](http://titus.uni-frankfurt.de/), [Junicode](https://junicode.sourceforge.io/), [Alphabetum](http://guindo.pntic.mec.es/~jmag0042/alphaeng.html), Gāndhārī Unicode, Fixedsys Excelsior and [URW Palladio HOT](http://www.sanskritweb.net/) fonts.
@@ -63,7 +91,6 @@ The current release includes the PUA characters listed below. The allocation of 
 * EAA0-EAB6 – Glyphs for SIL Encore font engine
 * EE01-EEAD – Cyrillic letters (TITUS)
 * F11E-F11F, F12A-F12B, F150-F151, F160-F163 – ISO 15919 diacritics from URW Palladio HOT
-* F500-F519 – Italic letters (Fixedsys Excelsior). Italics include Āçċêńţś, for Latin-1, Latin-2, Latin-3, Baltic, Turkish, and Azerbaijani. For lack of charset space, these letters are only available in lowercase
 * F638 – Slashed zero (Fixedsys Excelsior)
 * F6C3, F6D4-F6D8, F6DC-F6DD, F730-F739, F74A, F76A – Adobe PUA
 * F8FF – Apple logo
