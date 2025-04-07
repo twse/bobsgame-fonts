@@ -20,6 +20,9 @@ The current release includes support for the characters listed below.
 | 0500-052F | Cyrillic Supplement                     | (all)    |
 | 0530-058F | Armenian                                | (all)    |
 | 0590-05FF | Hebrew                                  | (all)    |
+| 0600-06FF | Arabic                                  | 32/256   |
+| 0800-083F | Samaritan                               | 3/61     |
+| 0870-089F | Arabic Extended-B                       | 2/43     |
 | 0E00-0E7F | Thai                                    | (all)    |
 | 10A0-10FF | Georgian                                | (all)    |
 | 13A0-13FF | Cherokee                                | (all)    |
@@ -62,8 +65,9 @@ The current release includes support for the characters listed below.
 | 2DE0-2DFF | Cyrillic Extended-A                     | (all)    |
 | 2E00-2E7F | Supplemental Punctuation                | (all)    |
 | 2FF0-2FFF | Ideographic Description Characters      | (all)    |
-| 3000-3FFF | CJK Symbols and Punctuation             | 22/64    |
-| 3200-32FF | Enclosed CJK Letters and Months         | 39/253   |
+| 3000-303F | CJK Symbols and Punctuation             | 42/64    |
+| 31C0-31EF | CJK Strokes                             | 1/39     |
+| 3200-32FF | Enclosed CJK Letters and Months         | 39/255   |
 | 3300-33FF | CJK Compatibility                       | 2/256    |
 | 4DC0-4DFF | Yijing Hexagram Symbols                 | (all)    |
 | A4D0-A4FF | Lisu                                    | (all)    |
@@ -73,9 +77,12 @@ The current release includes support for the characters listed below.
 | AB30-AB6F | Latin Extended-E                        | (all)    |
 | AB70-ABBF | Cherokee Supplement                     | (all)    |
 | FB00-FB4F | Alphabetic Presentation Forms           | (all)    |
+| FB50-FDFF | Arabic Presentation Forms-A             | 3/656    |
 | FE20-FE2F | Combining Half Marks                    | (all)    |
+| FE30-FE4F | CJK Compatibility Forms                 | 9/32     |
+| FE50-FE6F | Small Form Variants                     | (all)    |
 | FE70-FEFF | Arabic Presentation Forms-B             | 1/141    |
-| FF00-FFEF | Halfwidth and Fullwidth Forms           | 2/225    |
+| FF00-FFEF | Halfwidth and Fullwidth Forms           | 4/225    |
 | FFF0-FFFF | Specials                                | 1/5      |
 
 ### Pixel Sans Textbook
@@ -86,7 +93,7 @@ The current release includes support for the characters listed below.
 | FF00-FFEF | Halfwidth and Fullwidth Forms | 110/225  |
 
 ### PUA Characters
-The allocation of code points has been co-ordinated with characters in the [TITUS Cyberbit](http://titus.uni-frankfurt.de/), [Junicode](https://junicode.sourceforge.io/), Alphabetum, Gāndhārī Unicode, Fixedsys Excelsior and [URW Palladio HOT](http://www.sanskritweb.net/fonts/) fonts.
+The allocation of code points has been co-ordinated with characters in the [TITUS Cyberbit](http://titus.uni-frankfurt.de/), [Junicode](https://junicode.sourceforge.io/), Alphabetum, Gāndhārī Unicode, Fixedsys Excelsior, [URW Palladio HOT](http://www.sanskritweb.net/fonts/) and [Languagegeek](https://www.languagegeek.com/) fonts.
 * E004-E7FD – Latin letters (TITUS)
 * E801-E804 – Hebrew Microsoft PUA
 * E816, E817, E83B, E83C, E842, E843, E854, E855, E87B, E87C, E87E, E87F, E888, E88A, E892, E89C-E8A0, E8B2, F20E, F212, F77B-F77D – Gāndhārī Unicode
@@ -98,10 +105,9 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 * F638 – slashed zero (Fixedsys Excelsior)
 * F664-F669 – Symbols from Zone of the Enders: The Fist of Mars
 * F6C3, F6D4-F6D8, F6DC-F6DD, F730-F739, F74A, F76A – Adobe PUA
-* F700, F70F – Thai Microsoft PUA
 * F7CA – Capital J without serif, used in Pokémon Black & White (Textbook only)
 * F7E4 – Alternative Cyrillic “be”, used in Serbian and Macedonian languages
-* F800-F807 – Diacritics used in the ALA-LC transliteration scheme and Colombian native languages
+* F800-F809 – Diacritics used in the ALA-LC transliteration scheme and Colombian native languages
 * F814-F82D – Diacritics for African languages
 * F870-F888 – Symbols used by the name input screen in *Pokémon Black & White* and its sequel (Textbook only). The .RTFN font files in the game (encoded in Unicode) redefines the Mathematical Operators, Miscellaneous Technical etc. ranges of Unicode for these symbols.
 * F8FF – Apple logo
@@ -109,68 +115,110 @@ The allocation of code points has been co-ordinated with characters in the [TITU
 ### Supported Characters - Fallback Version 5.0
 The current release includes support for the characters listed below.
 
-| Range     | Description                        | Coverage   |
-|-----------|------------------------------------|------------|
-| 0000-007F | Basic Latin                        | (all)      |
-| 0080-00FF | Latin-1 Supplement                 | (all)      |
-| 0100-017F | Latin Extended-A                   | 39/128     |
-| 0180-024F | Latin Extended-B                   | 19/208     |
-| 0250-02AF | IPA Extensions                     | 2/96       |
-| 02B0-02FF | Spacing Modifier Letters           | 13/80      |
-| 0370-03FF | Greek and Coptic                   | 48/135     |
-| 0400-04FF | Cyrillic                           | 66/256     |
-| 1100-11FF | Hangul Jamo                        | 245/246    |
-| 1E00-1EFF | Latin Extended Additional          | 1/256      |
-| 2000-206F | General Punctuation                | 26/111     |
-| 2070-209F | Superscripts and Subscripts        | (all)      |
-| 20A0-20CF | Currency Symbols                   | (all)      |
-| 2100-214F | Letterlike Symbols                 | 13/80      |
-| 2150-218F | Number Forms                       | (all)      |
-| 2190-21FF | Arrows                             | 35/112     |
-| 2200-22FF | Mathematical Operators             | 69/256     |
-| 2300-23FF | Miscellaneous Technical            | 27/251     |
-| 2400-243F | Control Pictures                   | 1/39       |
-| 2440-245F | Optical Character Recognition      | (all)      |
-| 2460-24FF | Enclosed Alphanumerics             | (all)      |
-| 2500-257F | Box Drawing                        | (all)      |
-| 2590-259F | Block Elements                     | 1/32       |
-| 25A0-25FF | Geometric Shapes                   | 46/96      |
-| 2600-26FF | Miscellaneous Symbols              | 34/256     |
-| 2700-27BF | Dingbats                           | 12/192     |
-| 2F00-2FDF | Kangxi Radicals                    | (all)      |
-| 2FF0-2FFF | Ideographic Description Characters | (all)      |
-| 3000-3FFF | CJK Symbols and Punctuation        | (all)      |
-| 3040-309F | Hiragana                           | (all)      |
-| 30A0-30FF | Katakana                           | (all)      |
-| 3100-312F | Bopomofo                           | 40/41      |
-| 3130-318F | Hangul Compatibility Jamo          | (all)      |
-| 3190-319F | Kanbun                             | (all)      |
-| 31A0-31BF | Bopomofo Extended                  | 24/26      |
-| 31F0-31FF | Katakana Phonetic Extensions       | (all)      |
-| 3200-32FF | Enclosed CJK Letters and Months    | 251/254    |
-| 3300-33FF | CJK Compatibility                  | (all)      |
-| 4E00-9FEF | CJK Unified Ideographs             | 6371/20902 |
-| A960-A97F | Hangul Jamo Extended-A             | (all)      |
-| AC00-D7AF | Hangul Syllables                   | 2439/11172 |
-| D7B0-D7FF | Hangul Jamo Extended-B             | (all)      |
-| FB00-FB4F | Alphabetic Presentation Forms      | 2/58       |
-| FE30-FE4F | CJK Compatibility Forms            | (all)      |
-| FE50-FE6F | Small Form Variants                | (all)      |
-| FF00-FFEF | Halfwidth and Fullwidth Forms      | (all)      |
-| FFF0-FFFF | Specials                           | 1/5        |
+| Range     | Description                          | Coverage   |
+|-----------|--------------------------------------|------------|
+| 0000-007F | Basic Latin                          | (all)      |
+| 0080-00FF | Latin-1 Supplement                   | (all)      |
+| 0100-017F | Latin Extended-A                     | 43/128     |
+| 0180-024F | Latin Extended-B                     | 19/208     |
+| 0250-02AF | IPA Extensions                       | 2/96       |
+| 02B0-02FF | Spacing Modifier Letters             | 13/80      |
+| 0300-036F | Combining Diacritical Marks          | 3/112      |
+| 0370-03FF | Greek and Coptic                     | 48/135     |
+| 0400-04FF | Cyrillic                             | 66/256     |
+| 0600-06FF | Arabic                               | 1/256      |
+| 0E00-0E7F | Thai                                 | 1/87       |
+| 1100-11FF | Hangul Jamo                          | 248/256    |
+| 1E00-1EFF | Latin Extended Additional            | 7/256      |
+| 2000-206F | General Punctuation                  | 70/111     |
+| 2070-209F | Superscripts and Subscripts          | 18/46      |
+| 20A0-20CF | Currency Symbols                     | (all)      |
+| 2100-214F | Letterlike Symbols                   | 21/80      |
+| 2150-218F | Number Forms                         | (all)      |
+| 2190-21FF | Arrows                               | 41/112     |
+| 2200-22FF | Mathematical Operators               | 91/256     |
+| 2300-23FF | Miscellaneous Technical              | 51/256     |
+| 2400-243F | Control Pictures                     | 3/42       |
+| 2460-24FF | Enclosed Alphanumerics               | (all)      |
+| 2500-257F | Box Drawing                          | (all)      |
+| 2590-259F | Block Elements                       | (all)      |
+| 25A0-25FF | Geometric Shapes                     | 50/96      |
+| 2600-26FF | Miscellaneous Symbols                | 35/256     |
+| 2700-27BF | Dingbats                             | 70/192     |
+| 2900-297F | Supplemental Arrows-B                | 2/128      |
+| 2980-29FF | Miscellaneous Mathematical Symbols-B | 3/128      |
+| 2B00-2BFF | Miscellaneous Symbols and Arrows     | 4/254      |
+| 2E00-2E7F | Supplemental Punctuation             | 2/98       |
+| 2E80-2EFF | CJK Radicals Supplement              | 67/215     |
+| 2F00-2FDF | Kangxi Radicals                      | (all)      |
+| 2FF0-2FFF | Ideographic Description Characters   | (all)      |
+| 3000-303F | CJK Symbols and Punctuation          | (all)      |
+| 3040-309F | Hiragana                             | (all)      |
+| 30A0-30FF | Katakana                             | (all)      |
+| 3100-312F | Bopomofo                             | (all)      |
+| 3130-318F | Hangul Compatibility Jamo            | (all)      |
+| 3190-319F | Kanbun                               | (all)      |
+| 31A0-31BF | Bopomofo Extended                    | (all)      |
+| 31C0-31EF | CJK Strokes                          | 1/39       |
+| 31F0-31FF | Katakana Phonetic Extensions         | (all)      |
+| 3200-32FF | Enclosed CJK Letters and Months      | (all)      |
+| 3300-33FF | CJK Compatibility                    | (all)      |
+| 4E00-9FEF | CJK Unified Ideographs               | 6372/20902 |
+| A960-A97F | Hangul Jamo Extended-A               | (all)      |
+| AC00-D7AF | Hangul Syllables                     | 2439/11172 |
+| D7B0-D7FF | Hangul Jamo Extended-B               | (all)      |
+| FB00-FB4F | Alphabetic Presentation Forms        | 2/58       |
+| FB50-FDFF | Arabic Presentation Forms-A          | 1/656      |
+| FE30-FE4F | CJK Compatibility Forms              | (all)      |
+| FE50-FE6F | Small Form Variants                  | (all)      |
+| FF00-FFEF | Halfwidth and Fullwidth Forms        | (all)      |
+| FFF0-FFFF | Specials                             | 1/5        |
 
 ### Supported Characters - Supplementary Multilingual Plane
 The current release includes support for the characters listed below.
 
-| Range       | Description                      | Coverage |
-|-------------|----------------------------------|----------|
-| 11FB0-11FBF | Lisu Supplement                  | (all)    |
-| 1DF00-1DFFF | Latin Extended-G                 | (all)    |
-| 1F100-1F1FF | Enclosed Alphanumeric Supplement | 67/200   |
-| 1F800-1F8FF | Supplemental Arrows-B            | 4/162    |
+| Range       | Description                             | Coverage |
+|-------------|-----------------------------------------|----------|
+| 10190-101CF | Ancient Symbols                         | (all)    |
+| 10330-1034F | Gothic                                  | (all)    |
+| 104B0-104FF | Osage                                   | (all)    |
+| 10780-107BF | Latin Extended-F                        | (all)    |
+| 11FB0-11FBF | Lisu Supplement                         | (all)    |
+| 1CC00-1CEBF | Symbols for Legacy Computing Supplement | 561/695  |
+| 1CEC0-1CEFF | Miscellaneous Symbols Supplement        | (all)    |
+| 1D100-1D1FF | Musical Symbols                         | 209/248  |
+| 1D2C0-1D2DF | Kaktovik Numerals                       | (all)    |
+| 1D400-1D7FF | Mathematical Alphanumeric Symbols       | 637/997  |
+| 1DF00-1DFFF | Latin Extended-G                        | (all)    |
+| 1E030-1E08F | Cyrillic Extended-D                     | (all)    |
+| 1F100-1F1FF | Enclosed Alphanumeric Supplement        | 180/200  |
+| 1F300-1F5FF | Miscellaneous Symbols and Pictographs   | 267/768  |
+| 1F600-1F64F | Emoticons                               | 31/80    |
+| 1F650-1F67F | Ornamental Dingbats                     | 12/48    |
+| 1F680-1F6FF | Transport and Map Symbols               | 28/119   |
+| 1F700-1F77F | Alchemical Symbols                      | 3/128    |
+| 1F780-1F7FF | Geometric Shapes Extended               | 62/103   |
+| 1F800-1F8FF | Supplemental Arrows-C                   | 167/171  |
+| 1F900-1F9FF | Supplemental Symbols and Pictographs    | 33/256   |
+| 1FA00-1FA6F | Chess Symbols                           | 6/102    |
+| 1FA70-1FAFF | Symbols and Pictographs Extended-A      | 16/121   |
+| 1FB00-1FBFF | Symbols for Legacy Computing            | 213/250  |
+
+### Supported Characters - Supplementary Multilingual Plane (Fallback)
+The current release includes support for the characters listed below.
+
+| Range       | Description                             | Coverage |
+|-------------|-----------------------------------------|----------|
+| 1AFF0-1AFFF | Kana Extended-B                         | (all)    |
+| 1B000-1B0FF | Kana Supplement                         | 68/256   |
+| 1B100-1B12F | Kana Extended-A                         | 17/41    |
+| 1B130-1B16F | Small Kana Extension                    | (all)    |
+| 1F100-1F1FF | Enclosed Alphanumeric Supplement        | 180/200  |
+| 1F200-1F2FF | Enclosed Ideographic Supplement         | 21/64    |
+| 1F300-1F5FF | Miscellaneous Symbols and Pictographs   | 4/768    |
 
 ### PUA Characters
-* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
+* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by Poppy Works does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
 * E06C – Sims currency symbol
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
@@ -182,18 +230,18 @@ The current release includes support for the characters listed below.
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.me/hfw/flash_font_replacer/flash_font_replacer.html) or FileZilla in conjunction with Rebug Toolbox to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.me/hfw/flash_font_replacer/flash_font_replacer.html) or FileZilla in conjunction with Rebug Toolbox. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
-**P.S.** The console stores its fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using in version ≤ 4.81 (as well as non-hybrid firmwares) or a non-PlayStation 3 browser (e.g. Firefox Desktop) will disable all features.
+**P.S.** The console stores the fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed) and can be changed in **Settings: Theme Settings: Font** (the language must not be Chinese or Korean). Using in version ≤ 4.81 and non-hybrid firmwares or non-PlayStation 3 browsers (e.g. Firefox Desktop) will disable all features.
 
 ### Font Linking (Windows and Wine)
-Use the registry editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
+Use the registry editor (in Windows 10 and 11, it is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart.
 
 ### Font Linking (OS/2)
-1. Use any OS/2 INI editor, e.g. INITOR or the built-in OS/2 registry editor (OS/2 WARP 4.52 Server for e-Business and above) to edit the system profile (`os2.ini`).
+1. Use any OS/2 INI editor, e.g. INITOR or the registry editor from OS/2 WARP 4.52 Server for e-Business and above to edit the system profile (`os2.ini`).
 2. Go to `PM_SystemFonts`.
 3. Add the `PM_AssociateFont` key and enter `Pixel Sans Fallback,12` as the data
-4. Restart the computer for the changes to take effect.
+4. Restart for changes to take effect.
 
 ### Setting Pixel Sans Fallback as default for Japanese and Korean in web browsers
 1. Clone the repository or download the zipped archive or the font separately.
@@ -206,12 +254,12 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 
 ### Game Boy Advance
 * 4V4 Arashi Get the Goal
-* Bakuten Shoot Beyblade - Gekitou! Saikyou Blader
+* Bakuten Shoot Beyblade - Gekitō! Saikyō Blader
 * Black Matrix Zero
 * Captain Tsubasa: Eikō no Kiseki
 * Castlevania: Aria of Sorrow – Some glyphs are modified. In the European version, the font starts at 50A16D in 8×14. The font is encoded according to code page 1252 (Windows Latin-1), but omitting many non-essential Windows characters.
 * Castlevania: Harmony of Dissonance
-* Chu Chu Rocket! – This font is used in the game dialogue.
+* Chu Chu Rocket! – This font is used in the dialogue.
 * Daisenryaku
 * DiGi Charat: DigiCommunication
 * Dokodemo Taikyoku Yakuman Advance
@@ -223,7 +271,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * GetBackers: Jigoku no Sukaramushu
 * Goemon New Age Shutsudou!
 * Groove Adventure RAVE
-* Gunstar Super Heroes – The font is used in the game dialogue.
+* Gunstar Super Heroes – The font is used in the dialogue.
 * Hamster Story 2
 * Harvest Moon: Friends of Mineral Town – In the European version, the font starts at 4FAA12 in 16×22 and 4F9128 in 8×12. In the German version, the font starts at 71DDDC and special characters starts at 119BA0 at 8×12. In the USA version, the font starts at 4F90D4 in 8×12.
 * Harvest Moon: More Friends of Mineral Town – In the USA version, the font starts at 9AC902 in 16×12 and 9AB014 in 8×12.
@@ -341,7 +389,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * MySims – Not used in the PC and Wii versions and the Cozy Bundle (uses Trebuchet MS Bold).
 * MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder. Not used in the Wii version.
 * MySims Camera (DSiWare)
-* MySims Kingdom – Not used in the Wii version and the Cozy Bundle.
+* MySims Kingdom – Not used in the Wii version (uses Trebuchet MS Bold) and the Cozy Bundle.
 * MySims Party – Not used in the Wii version (uses Helvetica Neue Medium).
 * Namco Museum DS
 * Naruto Shippuden: Ninjutsu Zenkai! Cha-CRASH!
@@ -374,8 +422,8 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Solatorobo: Red the Hunter
 * Soma Bringer
 * Sora no Otoshimono Forte: Dreamy Season
-* Space Invaders Extreme – Used in descriptions of each option in the menu.
-* Space Invaders Extreme 2 – Used in descriptions of each option in the menu.
+* Space Invaders Extreme – Used for option descriptions in the menu.
+* Space Invaders Extreme 2 – Used for option descriptions in the menu.
 * Spice and Wolf: My One Year with Holo
 * Steal Princess
 * Suikoden Tierkreis
@@ -383,7 +431,7 @@ Use the registry editor (under Windows 10 and 11 the program is available as a s
 * Super Dodgeball Brawlers
 * SuperLite2500: Crimson Room
 * Super Princess Peach – Not used in the Switch title (Princess Peach: Showtime).
-* Super Robot Taisen OG Saga: Mugen no Frontier EXCEED
+* Super Robot Wars OG Saga: Mugen no Frontier EXCEED
 * Tactical Guild
 * Taiko no Tatsujin DS: Dororon! Yokai Daikessen!
 * Taiko no Tatsujin DS: Touch de Dokodon!
