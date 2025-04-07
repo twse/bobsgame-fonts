@@ -58,7 +58,6 @@ The current release includes support for the characters listed below.
 | 2C60-2C6F | Latin Extended-C                        | (all)    |
 | 2C80-2CFF | Coptic                                  | (all)    |
 | 2D00-2D2F | Georgian Supplement                     | (all)    |
-| 2D30-2D7F | Tifinagh                                | (all)    |
 | 2DE0-2DFF | Cyrillic Extended-A                     | (all)    |
 | 2E00-2E7F | Supplemental Punctuation                | (all)    |
 | 2FF0-2FFF | Ideographic Description Characters      | (all)    |
@@ -70,7 +69,6 @@ The current release includes support for the characters listed below.
 | A640-A69F | Cyrillic Extended-B                     | (all)    |
 | A700-A71F | Modifier Tone Letters                   | (all)    |
 | A720-A7FF | Latin Extended-D                        | (all)    |
-| A830-A83F | Common Indic Number Forms               | (all)    |
 | AB30-AB6F | Latin Extended-E                        | (all)    |
 | AB70-ABBF | Cherokee Supplement                     | (all)    |
 | FB00-FB4F | Alphabetic Presentation Forms           | (all)    |
@@ -146,10 +144,10 @@ The current release includes support for the characters listed below.
 | 3000-3FFF | CJK Symbols and Punctuation        | (all)      |
 | 3040-309F | Hiragana                           | (all)      |
 | 30A0-30FF | Katakana                           | (all)      |
-| 3100-312F | Bopomofo                           | 40/41      |
+| 3100-312F | Bopomofo                           | (all)      |
 | 3130-318F | Hangul Compatibility Jamo          | (all)      |
 | 3190-319F | Kanbun                             | (all)      |
-| 31A0-31BF | Bopomofo Extended                  | 24/26      |
+| 31A0-31BF | Bopomofo Extended                  | (all)      |
 | 31F0-31FF | Katakana Phonetic Extensions       | (all)      |
 | 3200-32FF | Enclosed CJK Letters and Months    | 251/254    |
 | 3300-33FF | CJK Compatibility                  | (all)      |
@@ -166,14 +164,30 @@ The current release includes support for the characters listed below.
 ### Supported Characters - Supplementary Multilingual Plane
 The current release includes support for the characters listed below.
 
-| Range       | Description                      | Coverage |
-|-------------|----------------------------------|----------|
-| 11FB0-11FBF | Lisu Supplement                  | (all)    |
-| 1DF00-1DFFF | Latin Extended-G                 | (all)    |
-| 1F100-1F1FF | Enclosed Alphanumeric Supplement | 67/200   |
-| 1F800-1F8FF | Supplemental Arrows-B            | 4/162    |
+| Range       | Description                             | Coverage |
+|-------------|-----------------------------------------|----------|
+| 10190-101CF | Ancient Symbols                         | 11/14    |
+| 10330-1034F | Gothic                                  | (all)    |
+| 10780-107BF | Latin Extended-F                        | (all)    |
+| 11FB0-11FBF | Lisu Supplement                         | (all)    |
+| 1CC00-1CEBF | Symbols for Legacy Computing Supplement | 75/695   |
+| 1CEC0-1CEFF | Miscellaneous Symbols Supplement        | 6/39     |
+| 1D100-1D1FF | Musical Symbols                         | 53/233   |
+| 1D2C0-1D2DF | Kaktovik Numerals                       | (all)    |
+| 1D400-1D7FF | Mathematical Alphanumeric Symbols       | 106/996  |
+| 1DF00-1DFFF | Latin Extended-G                        | (all)    |
+| 1E030-1E08F | Cyrillic Extended-D                     | (all)    |
+| 1F100-1F1FF | Enclosed Alphanumeric Supplement        | 133/200  |
+| 1F300-1F5FF | Miscellaneous Symbols and Pictographs   | 54/768   |
+| 1F600-1F64F | Emoticons                               | 3/80     |
+| 1F650-1F67F | Ornamental Dingbats                     | 7/48     |
+| 1F780-1F7FF | Geometric Shapes Extended               | 4/103    |
+| 1F800-1F8FF | Supplemental Arrows-C                   | 110/171  |
+| 1F900-1F9FF | Supplemental Symbols and Pictographs    | 8/256    |
+| 1FB00-1FBFF | Symbols for Legacy Computing            | 96/250   |
 
-### PUA Characters* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by [Poppy Works](https://poppyworks.itch.io/) does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
+### PUA Characters
+* E000-E040, E042, E045-E048, E04A-E04F, E052-E053, E06B – Nintendo DS and Wii symbols. The [Silver](https://poppyworks.itch.io/silver) font by Poppy Works does not use the PUA at all, but redefines the Enclosed Alphanumerics range of Unicode ($2474-$24E9) for some of these symbols.
 * E06C – Sims currency symbol
 * E2D1-E30C, E320-E337 – Japanese Halfwidth Extensions
 * E34C-E34E, EC7B-EC7E – Nut Fractions
@@ -185,11 +199,12 @@ The current release includes support for the characters listed below.
 * F8FF – Apple logo
 
 ### Font Replacement (PlayStation 3)
-Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replacer/flash_font_replacer.html) or FileZilla in conjunction with Rebug Toolbox to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
+Use PS3Xploit's Flash Font Replacer or FileZilla in conjunction with Rebug Toolbox to change the font. **Pixel Sans** (or **Terminal** or **Textbook**) is `SCE-PS3-RD-R-LATIN(2).TTF` and **Pixel Sans Fallback** is `SCE-PS3-NR-R-JPN.TTF` (Japanese) or `SCE-PS3-YG-R-KOR.TTF` (Korean).
 
 **P.S.** The console stores its fonts in `data/font` or `dev_rebug/data/font` (FileZilla, if Rebug Toolbox is installed). The font can be changed in **Settings: Theme Settings: Font** (the game console language must not be Chinese or Korean). Using the system software with a version older than 4.81 or a non-PlayStation 3 browser (e.g. Firefox Desktop or WebPositive) will display a message and disable all features and using the tool under non-hybrid firmwares will show a message on loading.
 
-### Font Linking (Windows and Wine)Use the registry editor (under Windows 10 and 11 the program is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
+### Font Linking (Windows and Wine)
+Use the registry editor (in Windows 10 and 11, it is available as a shortcut under **Windows Administrative Tools**) to add **Pixel Sans**, **Pixel Sans Terminal** and **Pixel Sans Textbook** to `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink` with the value `Pixel Sans Fallback.ttf,Pixel Sans Fallback` and restart the computer.
 
 ### Font Linking (OS/2)
 1. Use any OS/2 INI editor, e.g. INITOR or the built-in OS/2 registry editor (OS/2 WARP 4.52 Server for e-Business and above) to edit the system profile (`os2.ini`).
@@ -343,7 +358,7 @@ Use PS3Xploit's [Flash Font Replacer](http://ps3xploit.com/hfw/flash_font_replac
 * MySims – Not used in the PC and Wii versions and the Cozy Bundle (uses Trebuchet MS Bold).
 * MySims Agents – The font is available in-game as **font_ncl.bin** in the ``fonts`` folder. Not used in the Wii version.
 * MySims Camera (DSiWare)
-* MySims Kingdom – Not used in the Wii version and the Cozy Bundle.
+* MySims Kingdom – Not used in the Wii version (uses Trebuchet MS Bold) and the Cozy Bundle.
 * MySims Party – Not used in the Wii version (uses Helvetica Neue Medium).
 * Namco Museum DS
 * Naruto Shippuden: Ninjutsu Zenkai! Cha-CRASH!
